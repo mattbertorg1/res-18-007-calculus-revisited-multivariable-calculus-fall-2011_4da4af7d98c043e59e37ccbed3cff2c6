@@ -1,0 +1,1677 @@
+---
+about_this_resource_text: '<p><strong>Video Description:</strong> Herb Gross describes
+  n-dimensional vector spaces, relating definitions to the concept of a mathematical
+  structure. Also covered: n-tuples in n-dimensional space; Structure of&nbsp;n-dimensional
+  vector spaces; Definition of distance between two&nbsp;n-tuples; Limits of real-valued
+  functions of several real variables.</p> <p><strong>Instructor/speaker:</strong>
+  Prof. Herbert Gross</p>'
+course_id: res-18-007-calculus-revisited-multivariable-calculus-fall-2011
+embedded_media:
+- id: Video-YouTube-Stream
+  media_location: sSuZn6KHLnU
+  parent_uid: 084b1200021cc9bb90f4a2ebd7e09f47
+  title: Video-YouTube-Stream
+  type: Video
+  uid: 05c7a28c0a6c4006d62b1e21a2ccaf8f
+- id: Thumbnail-YouTube-JPG
+  media_location: https://img.youtube.com/vi/sSuZn6KHLnU/default.jpg
+  parent_uid: 084b1200021cc9bb90f4a2ebd7e09f47
+  title: Thumbnail-YouTube-JPG
+  type: Thumbnail
+  uid: e13851805948d47f58d82748ff9fd149
+- id: Video-InternetArchive-MP4
+  media_location: http://www.archive.org/download/MITRES.18-007/MITRES_18-007_Part3_lec1_300k.mp4
+  parent_uid: 084b1200021cc9bb90f4a2ebd7e09f47
+  title: Video-Internet Archive-MP4
+  type: Video
+  uid: db9572b5e2f62c940cdc61934ca8963b
+- id: Video-iTunesU-MP4
+  media_location: http://itunes.apple.com/us/itunes-u/part-iii-partial-derivatives/id491034051?i=108768199
+  parent_uid: 084b1200021cc9bb90f4a2ebd7e09f47
+  title: Video-iTunes U-MP4
+  type: Video
+  uid: 6edc33687b3935c720c5d3cdf97a677f
+- id: 3Play-3PlayYouTubeid-Stream
+  media_location: sSuZn6KHLnU
+  parent_uid: 084b1200021cc9bb90f4a2ebd7e09f47
+  title: 3Play-3Play YouTube id
+  type: 3Play
+  uid: ad434028fc4c1f2b6c7723ab540fca6e
+- id: sSuZn6KHLnU.srt
+  parent_uid: 084b1200021cc9bb90f4a2ebd7e09f47
+  technical_location: https://ocw.mit.edu/resources/res-18-007-calculus-revisited-multivariable-calculus-fall-2011/part-iii/lecture-1-n-dimensional-vector-spaces/sSuZn6KHLnU.srt
+  title: 3play caption file
+  type: null
+  uid: 861bef930cc6985380420676e1b8ad86
+- id: sSuZn6KHLnU.pdf
+  parent_uid: 084b1200021cc9bb90f4a2ebd7e09f47
+  technical_location: https://ocw.mit.edu/resources/res-18-007-calculus-revisited-multivariable-calculus-fall-2011/part-iii/lecture-1-n-dimensional-vector-spaces/sSuZn6KHLnU.pdf
+  title: 3play pdf file
+  type: null
+  uid: a44f2715bff7b5b0e1faf1d6c736b980
+- id: Caption-3Play YouTube id-SRT
+  parent_uid: 084b1200021cc9bb90f4a2ebd7e09f47
+  title: Caption-3Play YouTube id-SRT-English - US
+  type: Caption
+  uid: f6376f7e2944e07d840f65f3540b1cf4
+- id: Transcript-3Play YouTube id-PDF
+  parent_uid: 084b1200021cc9bb90f4a2ebd7e09f47
+  title: Transcript-3Play YouTube id-PDF-English - US
+  type: Transcript
+  uid: 6f5d1c60bbff67669ecc3b8063f7db3a
+inline_embed_id: 55484735lecture1:n-dimensionalvectorspaces72023136
+layout: video
+order_index: null
+parent_uid: 852f69467e15354e2b25115e4cf094f4
+related_resources_text: ''
+short_url: lecture-1-n-dimensional-vector-spaces
+technical_location: https://ocw.mit.edu/resources/res-18-007-calculus-revisited-multivariable-calculus-fall-2011/part-iii/lecture-1-n-dimensional-vector-spaces
+template_type: Tabbed
+title: 'Lecture 1: n-Dimensional Vector Spaces'
+transcript: <p><span m='40'>The</span> <span m='150'>following</span> <span m='590'>content</span>
+  <span m='1180'>is</span> <span m='1300'>provided</span> <span m='1750'>under</span>
+  <span m='2029'>a</span> <span m='2050'>Creative</span> <span m='2460'>Commons</span>
+  <span m='2870'>license.</span> <span m='3870'>Your</span> <span m='4150'>support</span>
+  <span m='4660'>will</span> <span m='4830'>help</span> <span m='5060'>MIT</span>
+  <span m='5540'>OpenCourseWare</span> <span m='6320'>continue</span> <span m='6820'>to</span>
+  <span m='6910'>offer</span> <span m='7330'>high</span> <span m='7550'>quality</span>
+  <span m='8080'>educational</span> <span m='8700'>resources</span> <span m='9350'>for</span>
+  <span m='9480'>free.</span> <span m='10560'>To</span> <span m='10690'>make</span>
+  <span m='10890'>a</span> <span m='10940'>donation</span> <span m='11580'>or</span>
+  <span m='11880'>view</span> <span m='12300'>additional</span> <span m='12760'>materials</span>
+  <span m='13300'>from</span> <span m='13460'>hundreds</span> <span m='13890'>of</span>
+  <span m='14000'>MIT</span> <span m='14420'>courses,</span> <span m='15420'>visit</span>
+  <span m='15750'>MIT</span> <span m='16180'>OpenCourseWare</span> <span m='17210'>at</span>
+  <span m='19280'>ocw.mit.edu.</span> </p><p><span m='53118'>HERBERT GROSS:</span>
+  <span m='53660'>Hi.</span> <span m='54620'>We've</span> <span m='54830'>sort</span>
+  <span m='55090'>of</span> <span m='55330'>arrive</span> <span m='55850'>at</span>
+  <span m='56200'>D-day</span> <span m='56990'>in</span> <span m='57290'>our</span>
+  <span m='57590'>course;</span> <span m='58200'>that</span> <span m='58330'>in</span>
+  <span m='58490'>a</span> <span m='58540'>manner</span> <span m='58960'>of</span>
+  <span m='59030'>speaking,</span> <span m='59970'>everything</span> <span m='60680'>that</span>
+  <span m='60840'>we've</span> <span m='61130'>done</span> <span m='61360'>up</span>
+  <span m='61530'>to</span> <span m='61670'>now</span> <span m='62320'>has</span>
+  <span m='62600'>been</span> <span m='62820'>a</span> <span m='62990'>rehearsal.</span>
+  <span m='64140'>That</span> <span m='64390'>today</span> <span m='65110'>we</span>
+  <span m='65430'>are</span> <span m='65570'>going</span> <span m='65830'>to</span>
+  <span m='65940'>come</span> <span m='66180'>to</span> <span m='66310'>grips</span>
+  <span m='67050'>with</span> <span m='67220'>what</span> <span m='67400'>the</span>
+  <span m='67500'>course</span> <span m='67810'>is</span> <span m='67960'>all</span>
+  <span m='68140'>about:</span> <span m='68980'>namely,</span> <span m='69870'>a</span>
+  <span m='70410'>real</span> <span m='70760'>valued</span> <span m='71510'>function</span>
+  <span m='72620'>of</span> <span m='72830'>several</span> <span m='73450'>real</span>
+  <span m='73700'>variables.</span> <span m='74800'>And</span> <span m='74890'>before</span>
+  <span m='75270'>getting</span> <span m='75620'>into</span> <span m='75850'>that,</span>
+  <span m='76160'>what</span> <span m='76310'>I'd</span> <span m='76450'>like</span>
+  <span m='76650'>to</span> <span m='76760'>do</span> <span m='77360'>is</span> <span
+  m='77560'>to</span> <span m='77730'>review</span> <span m='78530'>very</span> <span
+  m='78810'>briefly</span> <span m='79540'>what</span> <span m='79960'>we've</span>
+  <span m='80150'>talked</span> <span m='80480'>about</span> <span m='80830'>so</span>
+  <span m='81010'>far</span> <span m='81480'>in</span> <span m='81680'>terms</span>
+  <span m='81990'>of</span> <span m='82070'>functions,</span> <span m='82960'>since</span>
+  <span m='83300'>we've</span> <span m='83500'>introduced</span> <span m='84180'>the</span>
+  <span m='84390'>vector</span> <span m='84770'>notation.</span> </p><p><span m='85860'>Namely,</span>
+  <span m='86450'>what</span> <span m='86710'>we've</span> <span m='86910'>mentioned</span>
+  <span m='87320'>is,</span> <span m='87620'>is</span> <span m='87820'>that our</span>
+  <span m='87970'>function</span> <span m='88390'>machine</span> <span m='88870'>could</span>
+  <span m='89000'>have</span> <span m='89230'>either</span> <span m='89580'>a</span>
+  <span m='89680'>vector,</span> <span m='90320'>or</span> <span m='90820'>scalar</span>
+  <span m='91410'>as</span> <span m='91630'>its</span> <span m='91780'>input,</span>
+  <span m='92640'>and</span> <span m='92860'>either</span> <span m='93250'>a</span>
+  <span m='93360'>vector,</span> <span m='93910'>or</span> <span m='94150'>a</span>
+  <span m='94200'>scalar</span> <span m='94670'>as</span> <span m='94990'>its</span>
+  <span m='95140'>output.</span> <span m='96190'>Part</span> <span m='96440'>one</span>
+  <span m='96640'>of</span> <span m='96770'>our</span> <span m='96940'>course</span>
+  <span m='97780'>centered</span> <span m='98190'>around</span> <span m='98570'>the</span>
+  <span m='98710'>idea</span> <span m='99210'>where</span> <span m='99400'>both</span>
+  <span m='99740'>the</span> <span m='99900'>input</span> <span m='100330'>and</span>
+  <span m='100540'>the</span> <span m='100660'>outputs</span> <span m='101230'>were</span>
+  <span m='101470'>scalars.</span> <span m='102880'>Whereas,</span> <span m='103720'>the</span>
+  <span m='103840'>previous</span> <span m='104370'>block</span> <span m='105060'>of</span>
+  <span m='105230'>material</span> <span m='106210'>concerned</span> <span m='106800'>the</span>
+  <span m='106870'>case</span> <span m='107300'>where</span> <span m='107560'>our</span>
+  <span m='107720'>input</span> <span m='108430'>was</span> <span m='108670'>a</span>
+  <span m='108800'>scalar,</span> <span m='109670'>and</span> <span m='109860'>that</span>
+  <span m='110030'>output</span> <span m='110790'>was</span> <span m='111400'>a</span>
+  <span m='111480'>vector.</span> <span m='112630'>Today</span> <span m='113260'>what</span>
+  <span m='113460'>we're</span> <span m='113590'>going</span> <span m='113850'>to</span>
+  <span m='113960'>discuss</span> <span m='115070'>is</span> <span m='115520'>the</span>
+  <span m='115790'>situation</span> <span m='116630'>that</span> <span m='116800'>occurs</span>
+  <span m='117570'>when</span> <span m='118190'>our</span> <span m='118730'>input</span>
+  <span m='119380'>is</span> <span m='119600'>a</span> <span m='120100'>vector,</span>
+  <span m='120910'>and</span> <span m='121230'>our</span> <span m='121710'>output</span>
+  <span m='122430'>is</span> <span m='122700'>a</span> <span m='123120'>scalar.</span>
+  </p><p><span m='124240'>And</span> <span m='124440'>I</span> <span m='124510'>call</span>
+  <span m='124840'>today's</span> <span m='125220'>lecture</span> <span m='126240'>"N-dimensional</span>
+  <span m='127610'>Vector</span> <span m='127970'>Spaces."</span> <span m='129180'>Eventually,</span>
+  <span m='130280'>we'll</span> <span m='130520'>discuss</span> <span m='130970'>vector</span>
+  <span m='131300'>spaces</span> <span m='131800'>in</span> <span m='131940'>more</span>
+  <span m='132130'>detail.</span> <span m='133250'>For</span> <span m='133540'>the</span>
+  <span m='133700'>time</span> <span m='134060'>being,</span> <span m='135150'>I</span>
+  <span m='135310'>simply</span> <span m='136160'>want</span> <span m='136500'>to</span>
+  <span m='136690'>set</span> <span m='136990'>the</span> <span m='137090'>mood,</span>
+  <span m='138110'>and</span> <span m='138340'>hopefully</span> <span m='139220'>by</span>
+  <span m='139360'>the</span> <span m='139510'>time</span> <span m='139830'>I'm</span>
+  <span m='140020'>through,</span> <span m='140460'>show</span> <span m='140740'>you</span>
+  <span m='140940'>a</span> <span m='141080'>rather</span> <span m='141420'>peaceful</span>
+  <span m='141980'>coexistence</span> <span m='143160'>between</span> <span m='143630'>the</span>
+  <span m='143720'>worlds</span> <span m='144190'>of</span> <span m='144320'>the new</span>
+  <span m='144440'>mathematics,</span> <span m='145670'>and</span> <span m='145860'>the</span>
+  <span m='145930'>worlds</span> <span m='146390'>off</span> <span m='146930'>traditional</span>
+  <span m='147400'>mathematics.</span> </p><p><span m='148090'>In</span> <span m='148180'>fact,</span>
+  <span m='148750'>in</span> <span m='148950'>many</span> <span m='149240'>of our</span>
+  <span m='149540'>topics</span> <span m='149960'>that</span> <span m='150100'>we're</span>
+  <span m='150220'>going</span> <span m='150430'>to</span> <span m='150550'>tackle</span>
+  <span m='151190'>in</span> <span m='151340'>this</span> <span m='151530'>block</span>
+  <span m='151830'>of</span> <span m='151940'>material,</span> <span m='152690'>we</span>
+  <span m='153100'>will</span> <span m='153710'>give</span> <span m='154440'>both</span>
+  <span m='154800'>points</span> <span m='155130'>of</span> <span m='155230'>view.</span>
+  <span m='156150'>But</span> <span m='156670'>to</span> <span m='156790'>set</span>
+  <span m='156990'>the</span> <span m='157090'>stage</span> <span m='157490'>properly--</span>
+  <span m='158630'>to</span> <span m='158750'>get</span> <span m='158910'>into</span>
+  <span m='159090'>the</span> <span m='159230'>idea</span> <span m='159530'>of</span>
+  <span m='159600'>what</span> <span m='159740'>a</span> <span m='159770'>vector</span>
+  <span m='160100'>space</span> <span m='160430'>is</span> <span m='160570'>all</span>
+  <span m='160730'>about--</span> <span m='161280'>and</span> <span m='161570'>if</span>
+  <span m='161720'>that</span> <span m='161880'>would</span> <span m='162100'>frightens</span>
+  <span m='162500'>you</span> <span m='162630'>just</span> <span m='163240'>don't</span>
+  <span m='163420'>worry</span> <span m='163630'>about</span> <span m='163960'>for
+  a minute</span> <span m='164350'>or</span> <span m='164450'>two.</span> <span m='165460'>Worry</span>
+  <span m='165690'>about</span> <span m='165980'>it after</span> <span m='166320'>that,</span>
+  <span m='166650'>but</span> <span m='166800'>let's</span> <span m='167040'>just</span>
+  <span m='167760'>get</span> <span m='167920'>started.</span> </p><p><span m='168450'>Let's</span>
+  <span m='168720'>consider</span> <span m='169120'>the</span> <span m='169250'>situation</span>
+  <span m='170140'>where</span> <span m='170490'>I</span> <span m='170530'>have</span>
+  <span m='170680'>a</span> <span m='170740'>function</span> <span m='171160'>machine</span>
+  <span m='171810'>where</span> <span m='172220'>my</span> <span m='172480'>input</span>
+  <span m='173110'>is</span> <span m='173380'>a</span> <span m='173910'>vector</span>
+  <span m='174660'>and</span> <span m='174870'>my</span> <span m='175030'>output</span>
+  <span m='175790'>is</span> <span m='176060'>a</span> <span m='176460'>scalar.</span>
+  <span m='177920'>As</span> <span m='178170'>an</span> <span m='178290'>example,</span>
+  <span m='179260'>let</span> <span m='179500'>me</span> <span m='179660'>just</span>
+  <span m='180000'>generically</span> <span m='180710'>let</span> <span m='180920'>v</span>
+  <span m='181210'>represent</span> <span m='181840'>the</span> <span m='181940'>vector</span>
+  <span m='182960'>whose</span> <span m='183400'>form</span> <span m='183840'>is</span>
+  <span m='184360'>xi</span> <span m='184610'>plus</span> <span m='184960'>yj,</span>
+  <span m='185970'>using</span> <span m='187020'>i and</span> <span m='187230'>j</span>
+  <span m='187550'>components.</span> <span m='188580'>Let</span> <span m='188820'>me</span>
+  <span m='188990'>define</span> <span m='189820'>f(v)</span> <span m='191380'>to</span>
+  <span m='191570'>be</span> <span m='192220'>pi</span> <span m='193410'>times</span>
+  <span m='193890'>the</span> <span m='193990'>square</span> <span m='194500'>of</span>
+  <span m='194600'>the</span> <span m='195680'>i</span> <span m='196140'>component</span>
+  <span m='196505'>times</span> <span m='196870'>the</span> <span m='196990'>j</span>
+  <span m='197240'>component.</span> </p><p><span m='198200'>And</span> <span m='198310'>let's</span>
+  <span m='198530'>not</span> <span m='198730'>worry</span> <span m='199040'>right</span>
+  <span m='199320'>now</span> <span m='199510'>about</span> <span m='199790'>why</span>
+  <span m='200080'>I</span> <span m='200210'>picked</span> <span m='200520'>this</span>
+  <span m='200730'>particular</span> <span m='201300'>recipe.</span> <span m='202360'>Let's</span>
+  <span m='202630'>simply</span> <span m='203040'>observe</span> <span m='204140'>that</span>
+  <span m='204340'>once</span> <span m='204680'>this</span> <span m='204890'>recipe</span>
+  <span m='205460'>is</span> <span m='205680'>chosen,</span> <span m='206640'>f</span>
+  <span m='207020'>is</span> <span m='207250'>a</span> <span m='207380'>function</span>
+  <span m='208220'>which</span> <span m='208860'>maps</span> <span m='210060'>a</span>
+  <span m='211320'>two</span> <span m='211510'>dimensional</span> <span m='212340'>vector</span>
+  <span m='212690'>here</span> <span m='213040'>in</span> <span m='213250'>i</span>
+  <span m='213350'>and j</span> <span m='213600'>components,</span> <span m='214580'>into</span>
+  <span m='214950'>a</span> <span m='215030'>number</span> <span m='215370'>of</span>
+  <span m='215520'>pi</span> <span m='216200'>x^2</span> <span m='216990'>y.</span>
+  <span m='217880'>Just</span> <span m='218100'>to</span> <span m='218190'>illustrate</span>
+  <span m='218700'>this</span> <span m='219210'>recipe,</span> <span m='220090'>notice</span>
+  <span m='220530'>that</span> <span m='220650'>if</span> <span m='220830'>our</span>
+  <span m='220940'>vector</span> <span m='221370'>were</span> <span m='221580'>3i</span>
+  <span m='222160'>plus</span> <span m='222560'>4j,</span> <span m='223880'>the</span>
+  <span m='224100'>output</span> <span m='224920'>of</span> <span m='225100'>the f</span>
+  <span m='225470'>machine--</span> <span m='225930'>if</span> <span m='226040'>this</span>
+  <span m='226220'>were</span> <span m='226390'>the</span> <span m='226520'>input--</span>
+  <span m='227240'>would</span> <span m='227490'>be</span> <span m='227620'>what?</span>
+  </p><p><span m='228150'>Pi</span> <span m='229230'>times</span> <span m='229670'>the</span>
+  <span m='229770'>square</span> <span m='230270'>of</span> <span m='230360'>the</span>
+  <span m='230460'>first</span> <span m='231540'>component--</span> <span m='232080'>the</span>
+  <span m='232160'>component</span> <span m='232600'>of i,</span> <span m='233010'>that's</span>
+  <span m='233240'>3</span> <span m='233420'>squared--</span> <span m='234290'>times</span>
+  <span m='234660'>the</span> <span m='235350'>component</span> <span m='235940'>of
+  j,</span> <span m='236370'>which</span> <span m='236610'>is</span> <span m='236810'>4.</span>
+  <span m='237820'>And</span> <span m='238000'>that</span> <span m='238230'>leads</span>
+  <span m='238610'>to</span> <span m='239100'>36</span> <span m='239450'>pi.</span>
+  <span m='240790'>By</span> <span m='241010'>the</span> <span m='241120'>way,</span>
+  <span m='241340'>observe</span> <span m='241820'>that</span> <span m='241950'>order</span>
+  <span m='242260'>does</span> <span m='242540'>make</span> <span m='242740'>a</span>
+  <span m='242810'>difference,</span> <span m='243650'>namely</span> <span m='244090'>if</span>
+  <span m='244270'>I</span> <span m='244630'>reverse</span> <span m='245250'>the</span>
+  <span m='245370'>roles</span> <span m='245780'>of</span> <span m='245870'>the</span>
+  <span m='245980'>coefficients,</span> <span m='247040'>and</span> <span m='247310'>feed</span>
+  <span m='247750'>the</span> <span m='247840'>vector</span> <span m='248760'>4i</span>
+  <span m='249770'>plus</span> <span m='250110'>3j</span> <span m='250990'>into</span>
+  <span m='251280'>my</span> <span m='251450'>f</span> <span m='251680'>machine,</span>
+  <span m='252610'>the</span> <span m='252780'>output</span> <span m='253300'>would</span>
+  <span m='253460'>be</span> <span m='253630'>pi</span> <span m='254700'>times</span>
+  <span m='255370'>4</span> <span m='255770'>squared--</span> <span m='256200'>the</span>
+  <span m='256360'>square</span> <span m='256660'>of</span> <span m='256709'>the</span>
+  <span m='256839'>i</span> <span m='256970'>component--</span> <span m='258209'>times</span>
+  <span m='258750'>3,</span> <span m='259459'>and</span> <span m='259680'>that</span>
+  <span m='259880'>would</span> <span m='260029'>be</span> <span m='260529'>48</span>
+  <span m='260879'>pi.</span> </p><p><span m='262290'>Notice</span> <span m='262750'>also</span>
+  <span m='263640'>that</span> <span m='263790'>we</span> <span m='263980'>have</span>
+  <span m='264180'>allowed</span> <span m='264700'>already</span> <span m='265180'>in</span>
+  <span m='265320'>our</span> <span m='265470'>course</span> <span m='266240'>the</span>
+  <span m='266440'>abbreviation</span> <span m='267660'>that</span> <span m='267850'>(a,</span>
+  <span m='268580'>b)</span> <span m='269160'>would</span> <span m='269480'>represent</span>
+  <span m='270690'>ai</span> <span m='271280'>plus</span> <span m='271670'>bj,</span>
+  <span m='272540'>or</span> <span m='272820'>(a,</span> <span m='273430'>b,</span>
+  <span m='274070'>c)</span> <span m='274430'>would</span> <span m='274640'>represent</span>
+  <span m='275300'>ai</span> <span m='275720'>plus</span> <span m='276300'>bj</span>
+  <span m='276540'>plus</span> <span m='276860'>ck.</span> <span m='277730'>The</span>
+  <span m='277910'>idea</span> <span m='278290'>is</span> <span m='278520'>that if</span>
+  <span m='278740'>we</span> <span m='278860'>now</span> <span m='279150'>apply</span>
+  <span m='279570'>this</span> <span m='279770'>shorthand</span> <span m='280370'>notation</span>
+  <span m='281510'>to</span> <span m='281660'>these</span> <span m='282010'>two</span>
+  <span m='282305'>vectors,</span> <span m='283360'>what</span> <span m='283790'>we</span>
+  <span m='283920'>could</span> <span m='284100'>say</span> <span m='284340'>is</span>
+  <span m='284530'>what?</span> <span m='285100'>f</span> <span m='285450'>of...</span>
+  <span m='286170'>this</span> <span m='286470'>vector,</span> <span m='287440'>f(3,4)</span>
+  <span m='289240'>is</span> <span m='289520'>36</span> <span m='289805'>pi,</span>
+  <span m='290680'>whereas</span> <span m='291170'>f(4,3)</span> <span m='293130'>is</span>
+  <span m='293380'>48</span> <span m='293690'>pi.</span> <span m='294305'>And</span>
+  <span m='294610'>that's</span> <span m='294840'>exactly</span> <span m='295310'>what</span>
+  <span m='295490'>we</span> <span m='295620'>mean</span> <span m='296120'>when</span>
+  <span m='296470'>we</span> <span m='296580'>say</span> <span m='296830'>that</span>
+  <span m='296990'>we</span> <span m='297140'>may</span> <span m='297360'>treat</span>
+  <span m='298160'>a</span> <span m='298370'>two</span> <span m='298560'>dimensional</span>
+  <span m='299170'>vector</span> <span m='299900'>as</span> <span m='300160'>an</span>
+  <span m='300510'>ordered</span> <span m='301210'>pair.</span> <span m='301850'>You</span>
+  <span m='302000'>see,</span> <span m='302300'>it's,</span> <span m='302520'>not</span>
+  <span m='302720'>only</span> <span m='303030'>a</span> <span m='303140'>pair</span>
+  <span m='303950'>but</span> <span m='304150'>the</span> <span m='304510'>order</span>
+  <span m='305150'>does</span> <span m='305700'>make</span> <span m='305930'>a</span>
+  <span m='306000'>difference.</span> <span m='306720'>Both</span> <span m='307130'>in</span>
+  <span m='307430'>what</span> <span m='307690'>the</span> <span m='307770'>vector</span>
+  <span m='308240'>is</span> <span m='308760'>and</span> <span m='309140'>what</span>
+  <span m='309310'>the</span> <span m='309450'>output</span> <span m='310080'>of</span>
+  <span m='310350'>the</span> <span m='310720'>f</span> <span m='310940'>machine</span>
+  <span m='311200'>is.</span> <span m='312280'>OK?</span> </p><p><span m='313210'>Hopefully,</span>
+  <span m='313770'>let's</span> <span m='314030'>say,</span> <span m='314470'>so</span>
+  <span m='314770'>far</span> <span m='315090'>so</span> <span m='315350'>good,</span>
+  <span m='316090'>and</span> <span m='316310'>let's</span> <span m='316760'>tackle</span>
+  <span m='317200'>now</span> <span m='318120'>a</span> <span m='318280'>rather</span>
+  <span m='319080'>completely</span> <span m='319660'>different</span> <span m='320290'>problem.</span>
+  <span m='321900'>What</span> <span m='322290'>I'd</span> <span m='322440'>like</span>
+  <span m='322630'>to</span> <span m='322730'>do</span> <span m='322870'>now</span>
+  <span m='323200'>is</span> <span m='323310'>the</span> <span m='323390'>following--</span>
+  <span m='324440'>let's</span> <span m='324740'>consider</span> <span m='325210'>the</span>
+  <span m='325370'>cylinder--</span> <span m='326335'>the</span> <span m='326660'>right</span>
+  <span m='326940'>circular</span> <span m='327340'>cylinder--</span> <span m='328300'>the</span>
+  <span m='328410'>radius</span> <span m='329000'>of</span> <span m='329090'>whose</span>
+  <span m='329350'>base</span> <span m='329700'>is</span> <span m='329910'>x,</span>
+  <span m='330720'>and</span> <span m='330950'>whose</span> <span m='331150'>height</span>
+  <span m='331430'>is</span> <span m='331900'>y.</span> <span m='333530'>Notice</span>
+  <span m='334440'>that</span> <span m='334620'>the</span> <span m='334700'>volume</span>
+  <span m='335570'>of</span> <span m='335820'>this</span> <span m='336230'>cylinder</span>
+  <span m='337200'>is</span> <span m='337490'>pi</span> <span m='338350'>x^2</span>
+  <span m='339330'>y.</span> </p><p><span m='340910'>And</span> <span m='341260'>if</span>
+  <span m='341560'>I</span> <span m='341740'>use</span> <span m='342550'>the</span>
+  <span m='342700'>same</span> <span m='343070'>f</span> <span m='343930'>that</span>
+  <span m='344080'>we</span> <span m='344270'>used</span> <span m='344980'>previously--</span>
+  <span m='346080'>in</span> <span m='346230'>other</span> <span m='346390'>words,</span>
+  <span m='346930'>the</span> <span m='347090'>same</span> <span m='347470'>f</span>
+  <span m='348090'>that</span> <span m='348250'>we</span> <span m='348380'>were</span>
+  <span m='348540'>talking</span> <span m='348980'>about</span> <span m='349520'>over</span>
+  <span m='349790'>here.</span> <span m='351280'>Notice</span> <span m='351760'>that</span>
+  <span m='351870'>another</span> <span m='352180'>way--</span> <span m='352540'>see</span>
+  <span m='352680'>how</span> <span m='352920'>is</span> <span m='353050'>f</span>
+  <span m='353290'>defined?</span> <span m='354410'>Given</span> <span m='354780'>that</span>
+  <span m='354960'>the</span> <span m='355110'>input</span> <span m='356140'>was</span>
+  <span m='356500'>(x,</span> <span m='357270'>y),</span> <span m='357760'>the</span>
+  <span m='357900'>output</span> <span m='358400'>was</span> <span m='358640'>pi</span>
+  <span m='358960'>x^2</span> <span m='359600'>y,</span> <span m='360450'>notice</span>
+  <span m='361540'>that</span> <span m='361710'>the</span> <span m='361790'>volume</span>
+  <span m='362430'>is</span> <span m='362610'>f(x,y).</span> <span m='364380'>In</span>
+  <span m='364600'>particular,</span> <span m='365600'>if</span> <span m='365880'>I</span>
+  <span m='366000'>want</span> <span m='366350'>the</span> <span m='366440'>volume</span>
+  <span m='367090'>of</span> <span m='367200'>the</span> <span m='367300'>cylinder,</span>
+  <span m='368150'>the</span> <span m='368270'>radius</span> <span m='368830'>of</span>
+  <span m='368930'>whose</span> <span m='369170'>base</span> <span m='369580'>is</span>
+  <span m='370690'>3,</span> <span m='371440'>and</span> <span m='371630'>whose</span>
+  <span m='371870'>height</span> <span m='372090'>is</span> <span m='373230'>4,</span>
+  <span m='373700'>see x is</span> <span m='373900'>3</span> <span m='374130'>and</span>
+  <span m='374250'>y</span> <span m='374480'>is</span> <span m='374680'>4.</span>
+  </p><p><span m='375320'>What</span> <span m='375670'>I</span> <span m='375800'>really</span>
+  <span m='376140'>want</span> <span m='376480'>is</span> <span m='376710'>f(3,4).</span>
+  <span m='379040'>That's</span> <span m='379630'>pi</span> <span m='380350'>times</span>
+  <span m='380770'>3^2</span> <span m='381520'>times</span> <span m='382270'>4.</span>
+  <span m='383190'>f(3,4)</span> <span m='384780'>is</span> <span m='385270'>36</span>
+  <span m='386010'>pi.</span> <span m='387010'>Now</span> <span m='387250'>I'd</span>
+  <span m='387400'>like</span> <span m='387570'>to</span> <span m='387670'>pause</span>
+  <span m='388100'>for</span> <span m='388280'>a</span> <span m='388330'>second</span>
+  <span m='388730'>again,</span> <span m='389480'>and</span> <span m='389710'>return</span>
+  <span m='390170'>to</span> <span m='390380'>our</span> <span m='390520'>earlier</span>
+  <span m='391380'>remark.</span> <span m='392280'>Namely,</span> <span m='392970'>if</span>
+  <span m='393300'>I</span> <span m='393420'>look</span> <span m='393660'>at</span>
+  <span m='393810'>this,</span> <span m='397000'>and</span> <span m='397550'>if</span>
+  <span m='397900'>I</span> <span m='398390'>look</span> <span m='398680'>at</span>
+  <span m='399110'>this.</span> </p><p><span m='405500'>Notice</span> <span m='405980'>that</span>
+  <span m='406200'>these</span> <span m='406480'>two</span> <span m='406870'>expressions</span>
+  <span m='407880'>are</span> <span m='408080'>identical.</span> <span m='409060'>I</span>
+  <span m='409210'>cannot</span> <span m='409740'>tell</span> <span m='409980'>the</span>
+  <span m='410080'>difference</span> <span m='411050'>between</span> <span m='411520'>whether</span>
+  <span m='411870'>I'm</span> <span m='412060'>looking</span> <span m='412370'>at</span>
+  <span m='412500'>the</span> <span m='412590'>vector</span> <span m='413010'>3</span>
+  <span m='413410'>i</span> <span m='413650'>plus</span> <span m='414060'>4</span>
+  <span m='414310'>j,</span> <span m='415130'>or</span> <span m='415400'>whether</span>
+  <span m='415810'>I'm</span> <span m='416010'>looking</span> <span m='416370'>at</span>
+  <span m='416560'>the</span> <span m='416670'>cylinder,</span> <span m='417210'>the</span>
+  <span m='418100'>radius</span> <span m='418530'>of</span> <span m='418620'>whose</span>
+  <span m='418810'>base is</span> <span m='419260'>3,</span> <span m='419920'>and</span>
+  <span m='420100'>whose</span> <span m='420290'>height</span> <span m='420470'>is</span>
+  <span m='420660'>4,</span> <span m='421190'>whether</span> <span m='421590'>I</span>
+  <span m='421690'>look</span> <span m='421920'>at</span> <span m='422400'>this</span>
+  <span m='422640'>equation,</span> <span m='423500'>or</span> <span m='423730'>whether</span>
+  <span m='424070'>I</span> <span m='424170'>look</span> <span m='424400'>at</span>
+  <span m='424810'>this</span> <span m='425020'>equation.</span> </p><p><span m='426040'>The</span>
+  <span m='426160'>difference</span> <span m='426610'>is</span> <span m='427310'>that</span>
+  <span m='427440'>in</span> <span m='427530'>the</span> <span m='427620'>first</span>
+  <span m='428000'>case</span> <span m='428650'>somehow</span> <span m='428935'>or</span>
+  <span m='429220'>other,</span> <span m='429830'>it</span> <span m='429990'>was</span>
+  <span m='430210'>quite</span> <span m='430530'>natural</span> <span m='431100'>to</span>
+  <span m='431220'>think</span> <span m='431480'>of</span> <span m='431610'>(3, 4)</span>
+  <span m='433000'>as</span> <span m='433260'>being</span> <span m='433610'>either</span>
+  <span m='434000'>an</span> <span m='434110'>ordered</span> <span m='434540'>pair,</span>
+  <span m='435050'>or</span> <span m='435560'>an</span> <span m='435670'>arrow.</span>
+  <span m='437000'>In</span> <span m='437240'>this</span> <span m='437490'>case,</span>
+  <span m='437810'>however,</span> <span m='438280'>my</span> <span m='438470'>contention</span>
+  <span m='439090'>is</span> <span m='439700'>that</span> <span m='439870'>when</span>
+  <span m='440060'>we</span> <span m='440190'>think</span> <span m='440460'>of</span>
+  <span m='440630'>the</span> <span m='440750'>radius</span> <span m='442300'>of</span>
+  <span m='442520'>the</span> <span m='442620'>base</span> <span m='442980'>of</span>
+  <span m='443090'>the</span> <span m='443200'>cylinder,</span> <span m='443780'>and</span>
+  <span m='443990'>the</span> <span m='444070'>height,</span> <span m='444620'>we</span>
+  <span m='445000'>do</span> <span m='445210'>not</span> <span m='445660'>tend</span>
+  <span m='445950'>to</span> <span m='446050'>think</span> <span m='446340'>in</span>
+  <span m='446500'>terms</span> <span m='446840'>of</span> <span m='446970'>arrows,</span>
+  <span m='447660'>but</span> <span m='447910'>rather</span> <span m='448380'>in</span>
+  <span m='448480'>terms</span> <span m='448890'>of</span> <span m='449390'>ordered</span>
+  <span m='449790'>pairs.</span> </p><p><span m='450530'>In</span> <span m='450690'>other</span>
+  <span m='450860'>words,</span> <span m='451490'>the</span> <span m='451730'>ordered</span>
+  <span m='452160'>pair</span> <span m='453280'>(x,</span> <span m='453920'>y)</span>
+  <span m='455470'>in</span> <span m='455630'>the</span> <span m='455720'>expression</span>
+  <span m='456410'>f(x,y)</span> <span m='457640'>need</span> <span m='457970'>not</span>
+  <span m='458270'>be</span> <span m='458460'>viewed</span> <span m='458930'>as</span>
+  <span m='459140'>an</span> <span m='459220'>arrow,</span> <span m='459930'>but</span>
+  <span m='460620'>as</span> <span m='460990'>an</span> <span m='461420'>ordered</span>
+  <span m='462120'>pair.</span> <span m='462770'>And</span> <span m='462930'>an</span>
+  <span m='463040'>ordered</span> <span m='463380'>pair</span> <span m='463710'>is</span>
+  <span m='463940'>called</span> <span m='464320'>a</span> <span m='464910'>2-tuple.</span>
+  <span m='466870'>This</span> <span m='467090'>leads</span> <span m='467410'>to</span>
+  <span m='467580'>a</span> <span m='467630'>generalization</span> <span m='468950'>that</span>
+  <span m='469190'>I</span> <span m='469320'>think</span> <span m='469590'>is</span>
+  <span m='470130'>rather</span> <span m='470540'>important,</span> <span m='471120'>and</span>
+  <span m='471240'>I</span> <span m='471300'>think</span> <span m='471540'>you will</span>
+  <span m='471690'>see</span> <span m='471890'>in</span> <span m='472040'>a</span>
+  <span m='472090'>moment,</span> <span m='472730'>where</span> <span m='473320'>the</span>
+  <span m='473540'>idea</span> <span m='474110'>of</span> <span m='475750'>this</span>
+  <span m='476640'>approach</span> <span m='477310'>comes</span> <span m='477610'>into</span>
+  <span m='477810'>functions</span> <span m='478330'>of</span> <span m='478420'>several</span>
+  <span m='478735'>real</span> <span m='479050'>variables.</span> </p><p><span m='480410'>The</span>
+  <span m='480810'>topic</span> <span m='481180'>I</span> <span m='481260'>have</span>
+  <span m='481490'>in</span> <span m='481590'>mind</span> <span m='482780'>is</span>
+  <span m='482920'>something</span> <span m='483260'>called</span> <span m='484200'>an</span>
+  <span m='484360'>n-tuple.</span> <span m='485520'>And</span> <span m='485660'>let</span>
+  <span m='485830'>me</span> <span m='485970'>read</span> <span m='486200'>into</span>
+  <span m='486430'>that</span> <span m='487000'>rather</span> <span m='487330'>gradually</span>
+  <span m='487970'>as</span> <span m='488130'>follows.</span> <span m='489130'>Without</span>
+  <span m='489670'>giving</span> <span m='490000'>you</span> <span m='490280'>a</span>
+  <span m='490470'>specific</span> <span m='491540'>physical</span> <span m='492670'>example--</span>
+  <span m='494750'>meaning</span> <span m='495220'>I'll</span> <span m='495380'>give</span>
+  <span m='495560'>you</span> <span m='495690'>an</span> <span m='495750'>illustration,</span>
+  <span m='496490'>but</span> <span m='496910'>leave</span> <span m='497250'>the</span>
+  <span m='497340'>numerical</span> <span m='497880'>amounts</span> <span m='498290'>out.</span>
+  <span m='499390'>Quite</span> <span m='499700'>possibly</span> <span m='500300'>if</span>
+  <span m='500480'>I'm</span> <span m='500640'>studying</span> <span m='501070'>temperature</span>
+  <span m='501800'>in</span> <span m='501910'>a</span> <span m='501990'>room,</span>
+  <span m='503370'>the</span> <span m='503510'>temperature</span> <span m='504110'>will</span>
+  <span m='504740'>in</span> <span m='504910'>general</span> <span m='505270'>what?</span>
+  <span m='505790'>It</span> <span m='505900'>will</span> <span m='506110'>depend</span>
+  <span m='506620'>on</span> <span m='506850'>what</span> <span m='507070'>position</span>
+  <span m='507590'>I'm</span> <span m='507770'>in</span> <span m='507950'>the</span>
+  <span m='508040'>room,</span> <span m='508960'>and</span> <span m='509170'>also</span>
+  <span m='509680'>at</span> <span m='509850'>what</span> <span m='510140'>time</span>
+  <span m='510860'>I</span> <span m='510980'>measure</span> <span m='511310'>the</span>
+  <span m='511440'>temperature.</span> </p><p><span m='513820'>It's</span> <span m='514049'>fair</span>
+  <span m='514280'>to</span> <span m='514470'>assume</span> <span m='515270'>that</span>
+  <span m='515429'>in</span> <span m='515580'>many</span> <span m='515860'>applications</span>
+  <span m='516710'>the</span> <span m='516830'>temperature</span> <span m='517750'>is</span>
+  <span m='517950'>some</span> <span m='518210'>function</span> <span m='519070'>of</span>
+  <span m='519280'>the</span> <span m='519380'>four</span> <span m='519809'>independent</span>
+  <span m='520500'>variables</span> <span m='521390'>x,</span> <span m='521863'>y,</span>
+  <span m='522336'>z,</span> <span m='522809'>and</span> <span m='523059'>t,</span>
+  <span m='523750'>where</span> <span m='524080'>x,</span> <span m='524380'>y,</span>
+  <span m='524680'>and</span> <span m='524860'>z</span> <span m='525390'>are</span>
+  <span m='525750'>the</span> <span m='526130'>Cartesian</span> <span m='526760'>coordinates</span>
+  <span m='527400'>of</span> <span m='527520'>three</span> <span m='527700'>dimensional</span>
+  <span m='528220'>space,</span> <span m='528990'>and</span> <span m='529250'>t</span>
+  <span m='529510'>represents</span> <span m='530130'>time.</span> </p><p><span m='532020'>What</span>
+  <span m='532150'>I'm</span> <span m='532290'>driving</span> <span m='532760'>at</span>
+  <span m='532940'>is</span> <span m='533610'>I</span> <span m='533790'>can</span>
+  <span m='534020'>now</span> <span m='534250'>visualize</span> <span m='535090'>this</span>
+  <span m='536220'>in</span> <span m='536410'>terms</span> <span m='536740'>of</span>
+  <span m='536850'>my</span> <span m='537020'>function</span> <span m='537520'>machine</span>
+  <span m='537890'>again.</span> <span m='538810'>Namely</span> <span m='540010'>to</span>
+  <span m='540140'>compute</span> <span m='540700'>t,</span> <span m='541780'>I</span>
+  <span m='541930'>think</span> <span m='542250'>of</span> <span m='542350'>feeding</span>
+  <span m='542770'>what?</span> <span m='543420'>Specific</span> <span m='544030'>values</span>
+  <span m='544650'>into</span> <span m='544850'>the</span> <span m='544960'>machine</span>
+  <span m='545480'>for</span> <span m='545580'>x,</span> <span m='545976'>y,</span>
+  <span m='546372'>z,</span> <span m='546770'>and</span> <span m='546950'>t.</span>
+  <span m='548180'>The</span> <span m='548400'>f</span> <span m='548680'>machine</span>
+  <span m='549610'>then</span> <span m='550850'>performs</span> <span m='551580'>on</span>
+  <span m='551750'>x, y,</span> <span m='552220'>z,</span> <span m='552690'>and</span>
+  <span m='552840'>t</span> <span m='553440'>as</span> <span m='553670'>indicated</span>
+  <span m='554190'>by</span> <span m='554380'>f</span> <span m='555030'>to</span>
+  <span m='555470'>compute</span> <span m='556240'>t.</span> </p><p><span m='558200'>The</span>
+  <span m='558480'>input</span> <span m='559260'>of</span> <span m='559460'>my</span>
+  <span m='559630'>f</span> <span m='559870'>machine</span> <span m='560300'>in</span>
+  <span m='560410'>this</span> <span m='560610'>case</span> <span m='561050'>is what</span>
+  <span m='561440'>I'm</span> <span m='561600'>going</span> <span m='561770'>to</span>
+  <span m='561830'>call</span> <span m='562280'>a</span> <span m='562730'>4-tuple</span>
+  <span m='563560'>for</span> <span m='563680'>the</span> <span m='563800'>time</span>
+  <span m='564090'>being.</span> <span m='565490'>I</span> <span m='565660'>need</span>
+  <span m='565940'>four</span> <span m='567160'>values--</span> <span m='567870'>x,
+  y,</span> <span m='568310'>z,</span> <span m='568750'>and</span> <span m='568900'>t.</span>
+  <span m='569700'>Order</span> <span m='570190'>does</span> <span m='570530'>make</span>
+  <span m='570720'>a</span> <span m='570800'>difference.</span> <span m='571620'>For</span>
+  <span m='571800'>example,</span> <span m='572420'>if</span> <span m='572560'>I</span>
+  <span m='572670'>interchange</span> <span m='573400'>the</span> <span m='573580'>x</span>
+  <span m='573890'>and</span> <span m='574040'>the</span> <span m='574120'>y-coordinate,</span>
+  <span m='576060'>those</span> <span m='576160'>x</span> <span m='576380'>and</span>
+  <span m='576520'>y,</span> <span m='576950'>what</span> <span m='577270'>I'm</span>
+  <span m='577430'>doing</span> <span m='577760'>is</span> <span m='578020'>I'm</span>
+  <span m='578140'>interchanging</span> <span m='578820'>the</span> <span m='578960'>x</span>
+  <span m='579200'>and</span> <span m='579290'>the</span> <span m='579370'>y-coordinate</span>
+  <span m='580240'>of</span> <span m='580330'>the</span> <span m='580420'>point</span>
+  <span m='580740'>in</span> <span m='580840'>space,</span> <span m='581560'>and</span>
+  <span m='581720'>that</span> <span m='581900'>in</span> <span m='582010'>general</span>
+  <span m='582400'>is</span> <span m='582490'>going</span> <span m='582670'>to</span>
+  <span m='582780'>change</span> <span m='583380'>the</span> <span m='583490'>point</span>
+  <span m='583770'>in</span> <span m='583850'>space.</span> </p><p><span m='584800'>The</span>
+  <span m='584860'>point,</span> <span m='585120'>however,</span> <span m='585540'>is</span>
+  <span m='586060'>that</span> <span m='586210'>in</span> <span m='586320'>this</span>
+  <span m='586510'>particular</span> <span m='586930'>f</span> <span m='587150'>machine,</span>
+  <span m='588010'>notice</span> <span m='588480'>that</span> <span m='588680'>my</span>
+  <span m='588970'>output</span> <span m='589820'>is</span> <span m='590210'>a</span>
+  <span m='590620'>scalar.</span> <span m='591480'>Namely</span> <span m='592120'>the</span>
+  <span m='592320'>temperature</span> <span m='592830'>is</span> <span m='593070'>a</span>
+  <span m='593140'>number,</span> <span m='594020'>but</span> <span m='594250'>the</span>
+  <span m='594390'>input</span> <span m='595080'>is</span> <span m='595350'>a</span>
+  <span m='595720'>4-tuple.</span> <span m='597680'>x,</span> <span m='598076'>y,</span>
+  <span m='598472'>z,</span> <span m='598870'>and</span> <span m='599410'>t.</span>
+  <span m='600910'>Now</span> <span m='601190'>the</span> <span m='601300'>trouble</span>
+  <span m='601620'>with</span> <span m='601770'>using</span> <span m='602160'>symbolism</span>
+  <span m='603100'>like</span> <span m='603340'>x, y,</span> <span m='603790'>z,</span>
+  <span m='604240'>and</span> <span m='604400'>t--</span> <span m='606320'>I</span>
+  <span m='606410'>guess</span> <span m='606760'>without</span> <span m='607080'>going</span>
+  <span m='607280'>into</span> <span m='607490'>a</span> <span m='607540'>long</span>
+  <span m='607880'>philosophic</span> <span m='608670'>discussion--</span> <span m='609940'>among</span>
+  <span m='610220'>other</span> <span m='610430'>things</span> <span m='610830'>as</span>
+  <span m='610950'>soon</span> <span m='611160'>as</span> <span m='611240'>you</span>
+  <span m='611410'>have</span> <span m='611610'>27</span> <span m='612370'>or</span>
+  <span m='612440'>more</span> <span m='613220'>independent</span> <span m='613840'>variables</span>
+  <span m='614800'>you</span> <span m='615030'>run</span> <span m='615330'>out of</span>
+  <span m='615690'>letters of</span> <span m='615750'>the</span> <span m='615890'>alphabet.</span>
+  </p><p><span m='617070'>As</span> <span m='617350'>a</span> <span m='617410'>result,</span>
+  <span m='618170'>it</span> <span m='618330'>is</span> <span m='618530'>quite</span>
+  <span m='619110'>common</span> <span m='620210'>for</span> <span m='620420'>one</span>
+  <span m='620730'>to</span> <span m='620930'>adopt</span> <span m='621380'>a</span>
+  <span m='621440'>new</span> <span m='621780'>notation.</span> <span m='623430'>instead</span>
+  <span m='623750'>of</span> <span m='623860'>saying</span> <span m='624190'>let</span>
+  <span m='624370'>x,</span> <span m='624860'>y,</span> <span m='625350'>z,</span>
+  <span m='625840'>t</span> <span m='626040'>be</span> <span m='626520'>a</span> <span
+  m='626630'>4-tuple,</span> <span m='627590'>what</span> <span m='628030'>one</span>
+  <span m='628260'>usually</span> <span m='628670'>does</span> <span m='629410'>is</span>
+  <span m='629680'>chooses</span> <span m='630410'>one</span> <span m='630730'>symbol--</span>
+  <span m='631200'>say</span> <span m='631430'>x--</span> <span m='632570'>and</span>
+  <span m='632800'>then</span> <span m='633040'>uses</span> <span m='633410'>subscripts.</span>
+  <span m='635390'>a</span> <span m='635560'>general</span> <span m='636290'>4-tuple</span>
+  <span m='636920'>would</span> <span m='637050'>have</span> <span m='637260'>the</span>
+  <span m='637340'>form</span> <span m='638130'>what?</span> <span m='638570'>(x1,</span>
+  <span m='639730'>x2,</span> <span m='640710'>x3,</span> <span m='641330'>x4),</span>
+  <span m='642980'>where</span> <span m='643280'>x1,</span> <span m='643560'>x2,</span>
+  <span m='644130'>x3</span> <span m='644370'>and</span> <span m='644700'>x4</span>
+  <span m='645040'>are</span> <span m='645380'>numbers.</span> </p><p><span m='646150'>An</span>
+  <span m='646560'>expression</span> <span m='646960'>like</span> <span m='647140'>this</span>
+  <span m='647550'>is</span> <span m='647730'>called</span> <span m='647980'>the</span>
+  <span m='648050'>4-tuple.</span> <span m='648940'>What</span> <span m='649360'>is</span>
+  <span m='649520'>this</span> <span m='649740'>a</span> <span m='649860'>generalization</span>
+  <span m='650255'>of?</span> <span m='651280'>The</span> <span m='651710'>4-tuple</span>
+  <span m='652140'>is</span> <span m='652280'>a</span> <span m='652370'>generalization</span>
+  <span m='653580'>of</span> <span m='653790'>the</span> <span m='653880'>one</span>
+  <span m='654130'>dimensional,</span> <span m='655010'>two</span> <span m='655190'>dimensional,</span>
+  <span m='656060'>and</span> <span m='656290'>three</span> <span m='656510'>dimensional</span>
+  <span m='657460'>arrow,</span> <span m='658740'>where</span> <span m='659130'>we</span>
+  <span m='659260'>could</span> <span m='659410'>think</span> <span m='659670'>of</span>
+  <span m='659870'>what?</span> <span m='660450'>The</span> <span m='660560'>vector</span>
+  <span m='661310'>x1</span> <span m='661630'>i</span> <span m='662330'>as</span>
+  <span m='662540'>just</span> <span m='662830'>needing</span> <span m='664560'>one</span>
+  <span m='664820'>number</span> <span m='665070'>to</span> <span m='665190'>specify</span>
+  <span m='665780'>it.</span> <span m='666200'>The</span> <span m='666320'>vector</span>
+  <span m='667000'>x1</span> <span m='667490'>i</span> <span m='667800'>plus</span>
+  <span m='668400'>x2</span> <span m='668630'>j</span> <span m='669490'>could've</span>
+  <span m='670080'>been</span> <span m='670400'>used</span> <span m='670760'>to</span>
+  <span m='670860'>do</span> <span m='670990'>what?</span> </p><p><span m='671930'>It</span>
+  <span m='672100'>could've</span> <span m='672280'>been</span> <span m='672400'>abbreviated</span>
+  <span m='672990'>by</span> <span m='673230'>the</span> <span m='673520'>2-tuple</span>
+  <span m='674160'>(x1,</span> <span m='674640'>x2),</span> <span m='675580'>and</span>
+  <span m='675770'>the</span> <span m='675840'>vector</span> <span m='676520'>x1 i</span>
+  <span m='676990'>plus</span> <span m='677610'>x2</span> <span m='677960'>j</span>
+  <span m='678230'>plus</span> <span m='678830'>x3</span> <span m='679060'>k</span>
+  <span m='679720'>could've</span> <span m='679970'>been</span> <span m='680150'>abbreviated</span>
+  <span m='680830'>by</span> <span m='680980'>the</span> <span m='681110'>3-tuple</span>
+  <span m='682310'>(x1,</span> <span m='682900'>x2,</span> <span m='683410'>x3).</span>
+  <span m='684470'>It</span> <span m='684610'>is</span> <span m='684790'>conventional</span>
+  <span m='685610'>in</span> <span m='685990'>one,</span> <span m='686380'>two,</span>
+  <span m='686610'>or</span> <span m='686690'>three</span> <span m='686950'>dimensional</span>
+  <span m='687440'>space</span> <span m='688230'>to</span> <span m='688350'>use</span>
+  <span m='688630'>x,</span> <span m='688945'>y,</span> <span m='689260'>and</span>
+  <span m='689440'>z,</span> <span m='690240'>instead</span> <span m='690560'>of</span>
+  <span m='691190'>x1,</span> <span m='691480'>x2,</span> <span m='691800'>and x3.</span>
+  <span m='692680'>But</span> <span m='692870'>that's</span> <span m='693110'>just</span>
+  <span m='693310'>a</span> <span m='693410'>convention.</span> <span m='694390'>I</span>
+  <span m='694580'>think</span> <span m='694880'>that</span> <span m='695160'>it's</span>
+  <span m='695330'>because</span> <span m='695670'>we</span> <span m='695810'>learnt</span>
+  <span m='696120'>it</span> <span m='696230'>that</span> <span m='696480'>way</span>
+  <span m='696710'>that</span> <span m='696830'>we</span> <span m='697000'>do</span>
+  <span m='697250'>it.</span> <span m='697640'>In</span> <span m='697860'>general,</span>
+  <span m='698280'>I</span> <span m='698380'>think</span> <span m='699260'>the</span>
+  <span m='699380'>subscript</span> <span m='699900'>notation</span> <span m='700840'>is</span>
+  <span m='701280'>much</span> <span m='701560'>nicer,</span> <span m='702450'>but</span>
+  <span m='702610'>in</span> <span m='702770'>general</span> <span m='703180'>the</span>
+  <span m='703310'>idea</span> <span m='703670'>is</span> <span m='703780'>what?</span>
+  <span m='704440'>Given</span> <span m='704950'>an</span> <span m='705190'>ordered</span>
+  <span m='705500'>array</span> <span m='706450'>of</span> <span m='706910'>n</span>
+  <span m='707430'>numbers,</span> <span m='708640'>x1</span> <span m='709050'>up</span>
+  <span m='709270'>to</span> <span m='709540'>xn,</span> <span m='710240'>we</span>
+  <span m='710540'>call</span> <span m='710860'>that</span> <span m='711180'>an</span>
+  <span m='711340'>n-tuple.</span> </p><p><span m='712590'>And</span> <span m='713000'>my</span>
+  <span m='713170'>friend</span> <span m='713710'>and</span> <span m='713990'>colleague</span>
+  <span m='714420'>John</span> <span m='714750'>Fitch</span> <span m='715120'>mentioned</span>
+  <span m='715520'>to</span> <span m='715600'>me</span> <span m='715740'>that</span>
+  <span m='715920'>if n is odd,</span> <span m='716780'>like</span> <span m='717020'>one,</span>
+  <span m='717240'>three,</span> <span m='717500'>five,</span> <span m='717860'>or</span>
+  <span m='717910'>seven,</span> <span m='718590'>then it's</span> <span m='718950'>known</span>
+  <span m='719240'>as</span> <span m='719440'>an</span> <span m='719620'>odd-tuple.</span>
+  <span m='721120'>Which</span> <span m='721300'>isn't</span> <span m='721590'>a</span>
+  <span m='721690'>very</span> <span m='721970'>funny</span> <span m='722340'>story,</span>
+  <span m='723090'>that's</span> <span m='723290'>why</span> <span m='723420'>I</span>
+  <span m='723490'>told</span> <span m='723800'>you</span> <span m='723870'>John</span>
+  <span m='724430'>told</span> <span m='724730'>me</span> <span m='725040'>that</span>
+  <span m='725250'>particular</span> <span m='725700'>story.</span> <span m='726020'>But</span>
+  <span m='726180'>the</span> <span m='726260'>whole</span> <span m='726480'>idea</span>
+  <span m='726920'>is</span> <span m='727830'>this</span> <span m='728070'>is</span>
+  <span m='728620'>an</span> <span m='728980'>n-tuple.</span> <span m='730200'>And</span>
+  <span m='730420'>the</span> <span m='730540'>whole</span> <span m='730840'>idea</span>
+  <span m='731310'>again</span> <span m='731770'>is</span> <span m='732030'>what?</span>
+  <span m='732500'>That</span> <span m='732700'>an</span> <span m='732860'>n-tuple</span>
+  <span m='733510'>makes</span> <span m='733780'>sense,</span> <span m='734460'>even</span>
+  <span m='734870'>when</span> <span m='735110'>n</span> <span m='735480'>is</span>
+  <span m='735800'>greater</span> <span m='736140'>than</span> <span m='736360'>three.</span>
+  </p><p><span m='737310'>The</span> <span m='737480'>whole</span> <span m='737930'>name</span>
+  <span m='738270'>of</span> <span m='738400'>the</span> <span m='738520'>game</span>
+  <span m='739180'>of</span> <span m='739490'>functions</span> <span m='740210'>of</span>
+  <span m='740350'>several</span> <span m='740860'>real</span> <span m='741110'>variables--</span>
+  <span m='743010'>in</span> <span m='743340'>terms</span> <span m='743860'>of</span>
+  <span m='744440'>modern</span> <span m='745390'>mathematics,</span> <span m='746200'>in</span>
+  <span m='746350'>terms</span> <span m='746720'>of</span> <span m='746820'>the</span>
+  <span m='746920'>language of</span> <span m='747630'>n-tuples--</span> <span m='748800'>is</span>
+  <span m='749080'>that</span> <span m='749700'>a</span> <span m='749850'>real</span>
+  <span m='750240'>valued</span> <span m='750710'>function</span> <span m='751720'>of</span>
+  <span m='751920'>several,</span> <span m='752360'>where by</span> <span m='752700'>several</span>
+  <span m='753080'>you</span> <span m='753200'>mean</span> <span m='753450'>more</span>
+  <span m='753650'>than</span> <span m='753840'>one,</span> <span m='754500'>real</span>
+  <span m='754790'>variables</span> <span m='755750'>is</span> <span m='755950'>simply</span>
+  <span m='756360'>a</span> <span m='756480'>function</span> <span m='757360'>in</span>
+  <span m='757630'>which</span> <span m='757850'>the</span> <span m='758120'>input</span>
+  <span m='759090'>is</span> <span m='759360'>an</span> <span m='759580'>n-tuple</span>
+  <span m='760740'>and</span> <span m='760980'>the</span> <span m='761130'>output</span>
+  <span m='761910'>is</span> <span m='762180'>a</span> <span m='762710'>number.</span>
+  <span m='763730'>OK?</span> </p><p><span m='764570'>That's</span> <span m='764790'>what</span>
+  <span m='764930'>this</span> <span m='765100'>whole</span> <span m='765330'>thing</span>
+  <span m='765560'>is</span> <span m='765710'>all</span> <span m='765900'>about.</span>
+  <span m='766530'>And</span> <span m='766710'>because</span> <span m='767100'>of</span>
+  <span m='767240'>that,</span> <span m='767670'>when</span> <span m='768050'>we</span>
+  <span m='768170'>then</span> <span m='768550'>abbreviate</span> <span m='769430'>the</span>
+  <span m='769610'>n-tuple,</span> <span m='770530'>we</span> <span m='770960'>use</span>
+  <span m='771540'>x</span> <span m='771890'>with</span> <span m='772100'>a</span>
+  <span m='772150'>bar</span> <span m='772580'>under</span> <span m='772940'>it.</span>
+  <span m='773150'>Let's call</span> <span m='773370'>it</span> <span m='773710'>x-bar.</span>
+  <span m='774570'>Rather</span> <span m='775040'>than</span> <span m='775440'>x</span>
+  <span m='775720'>with</span> <span m='775890'>the</span> <span m='776050'>arrow</span>
+  <span m='776430'>over</span> <span m='776910'>it,</span> <span m='777360'>since</span>
+  <span m='777750'>arrows</span> <span m='778300'>may</span> <span m='778540'>be</span>
+  <span m='779020'>inappropriate.</span> <span m='780070'>Now</span> <span m='780210'>what</span>
+  <span m='780340'>do</span> <span m='780420'>I</span> <span m='780530'>mean</span>
+  <span m='780750'>by</span> <span m='780950'>inappropriate?</span> <span m='781770'>Well</span>
+  <span m='782180'>I</span> <span m='782260'>mean</span> <span m='782630'>that even</span>
+  <span m='782990'>in</span> <span m='783070'>the</span> <span m='783170'>case</span>
+  <span m='783490'>of</span> <span m='783640'>one,</span> <span m='783940'>two,</span>
+  <span m='784180'>or</span> <span m='784250'>three</span> <span m='784530'>dimensions,</span>
+  <span m='785480'>you</span> <span m='785640'>might</span> <span m='785940'>be</span>
+  <span m='786090'>thinking</span> <span m='786530'>of</span> <span m='786710'>say</span>
+  <span m='787310'>the</span> <span m='787430'>radius,</span> <span m='788500'>and</span>
+  <span m='788730'>the</span> <span m='788800'>height</span> <span m='789530'>of</span>
+  <span m='789740'>a</span> <span m='789790'>cylinder,</span> <span m='790670'>rather</span>
+  <span m='791090'>than</span> <span m='791310'>as</span> <span m='791540'>an</span>
+  <span m='791720'>arrow.</span> </p><p><span m='792500'>And</span> <span m='792730'>in</span>
+  <span m='792900'>more</span> <span m='793160'>than</span> <span m='793370'>three</span>
+  <span m='793600'>dimensions--</span> <span m='794520'>for</span> <span m='794740'>most</span>
+  <span m='795100'>of</span> <span m='795230'>us</span> <span m='795420'>at</span>
+  <span m='795490'>least--</span> <span m='796060'>it's</span> <span m='796280'>difficult</span>
+  <span m='796820'>to</span> <span m='796890'>visualize</span> <span m='797670'>what</span>
+  <span m='797870'>we</span> <span m='797960'>would</span> <span m='798180'>mean</span>
+  <span m='798720'>by</span> <span m='798920'>an</span> <span m='799070'>arrow.</span>
+  <span m='799820'>So</span> <span m='800160'>we</span> <span m='800280'>just</span>
+  <span m='800510'>use</span> <span m='800940'>the</span> <span m='801030'>bar</span>
+  <span m='801490'>underneath.</span> <span m='802460'>Now</span> <span m='802770'>again,</span>
+  <span m='803750'>the</span> <span m='803860'>major</span> <span m='804200'>point</span>
+  <span m='804530'>is</span> <span m='804700'>notice</span> <span m='805060'>this--</span>
+  <span m='805520'>I</span> <span m='805980'>keep</span> <span m='806070'>saying</span>
+  <span m='806310'>the</span> <span m='806460'>major</span> <span m='806840'>point.</span>
+  <span m='807160'>I</span> <span m='807210'>guess</span> <span m='807400'>there's</span>
+  <span m='807510'>a</span> <span m='807580'>lot</span> <span m='807810'>of</span>
+  <span m='807930'>major</span> <span m='808250'>points</span> <span m='808580'>about</span>
+  <span m='808880'>this.</span> </p><p><span m='809720'>Remember</span> <span m='810220'>that</span>
+  <span m='810450'>we</span> <span m='810620'>did</span> <span m='810930'>not</span>
+  <span m='811270'>call</span> <span m='811760'>arrows</span> <span m='812910'>"vectors".</span>
+  <span m='814120'>We</span> <span m='814270'>did</span> <span m='814470'>not</span>
+  <span m='814740'>call</span> <span m='815050'>arrows</span> <span m='815710'>"vectors"</span>
+  <span m='816620'>until</span> <span m='817040'>we</span> <span m='817170'>defined</span>
+  <span m='817810'>a</span> <span m='817990'>structure</span> <span m='818630'>on</span>
+  <span m='818760'>the</span> <span m='818910'>arrows.</span> <span m='819290'>Remember</span>
+  <span m='819570'>what</span> <span m='819680'>we</span> <span m='819790'>did?</span>
+  <span m='820250'>We</span> <span m='820650'>told</span> <span m='820770'>what</span>
+  <span m='820940'>it</span> <span m='821030'>meant</span> <span m='821250'>for</span>
+  <span m='821350'>two</span> <span m='821610'>arrows</span> <span m='821970'>to</span>
+  <span m='822080'>be</span> <span m='822280'>equal,</span> <span m='822790'>we</span>
+  <span m='823110'>told</span> <span m='823410'>how</span> <span m='823570'>we</span>
+  <span m='823770'>added</span> <span m='824120'>two</span> <span m='824340'>arrows,</span>
+  <span m='825030'>and</span> <span m='825220'>we</span> <span m='825350'>told</span>
+  <span m='825690'>how</span> <span m='825900'>we</span> <span m='826050'>multiplied</span>
+  <span m='826710'>an</span> <span m='826780'>arrow</span> <span m='827090'>by</span>
+  <span m='827330'>a</span> <span m='827420'>scalar.</span> </p><p><span m='828230'>In</span>
+  <span m='828410'>a</span> <span m='828510'>similar</span> <span m='828890'>way,</span>
+  <span m='829390'>we</span> <span m='829790'>will</span> <span m='830030'>not</span>
+  <span m='830360'>call</span> <span m='830760'>n-tuples</span> <span m='832330'>a</span>
+  <span m='832520'>structure</span> <span m='833650'>until</span> <span m='834210'>we</span>
+  <span m='835180'>tell</span> <span m='835760'>how</span> <span m='836020'>to</span>
+  <span m='836350'>equate</span> <span m='836870'>a</span> <span m='836980'>pair</span>
+  <span m='837250'>of</span> <span m='837350'>n-tuples,</span> <span m='837970'>how</span>
+  <span m='838140'>to</span> <span m='838280'>add</span> <span m='838580'>a</span>
+  <span m='838690'>pair,</span> <span m='839240'>and</span> <span m='839410'>how</span>
+  <span m='839580'>to</span> <span m='839710'>multiply</span> <span m='840270'>an</span>
+  <span m='840380'>n-tuple</span> <span m='840910'>by</span> <span m='841550'>a</span>
+  <span m='841650'>number.</span> <span m='841960'>By</span> <span m='842170'>the</span>
+  <span m='842270'>way,</span> <span m='842810'>the</span> <span m='842960'>structure</span>
+  <span m='843390'>that</span> <span m='843530'>we</span> <span m='843660'>wind</span>
+  <span m='844010'>up</span> <span m='844170'>with</span> <span m='844670'>is</span>
+  <span m='844890'>then</span> <span m='845120'>called</span> <span m='845530'>an</span>
+  <span m='845860'>n-dimensional</span> <span m='846710'>vector</span> <span m='847030'>space,</span>
+  <span m='848490'>or</span> <span m='849330'>more</span> <span m='849970'>concisely,</span>
+  <span m='851050'>n-space.</span> </p><p><span m='852270'>And</span> <span m='852400'>the</span>
+  <span m='852510'>idea</span> <span m='852870'>works</span> <span m='853140'>like</span>
+  <span m='853370'>this--</span> <span m='854210'>let's</span> <span m='854480'>pick</span>
+  <span m='854690'>a</span> <span m='854760'>particular</span> <span m='855250'>value</span>
+  <span m='855680'>of</span> <span m='855790'>n.</span> <span m='856690'>Lets</span>
+  <span m='856850'>just</span> <span m='856990'>call it</span> <span m='857310'>n.</span>
+  <span m='858270'>And</span> <span m='858530'>let</span> <span m='858820'>s</span>
+  <span m='859150'>sub</span> <span m='859370'>n</span> <span m='859970'>be</span>
+  <span m='860240'>the</span> <span m='860380'>set</span> <span m='861140'>of</span>
+  <span m='861400'>all</span> <span m='862140'>n-tuples</span> <span m='862960'>x1</span>
+  <span m='863200'>up</span> <span m='863350'>to</span> <span m='863460'>xn,</span>
+  <span m='864370'>a</span> <span m='864420'>set</span> <span m='864570'>of</span>
+  <span m='864690'>what?</span> <span m='865410'>All</span> <span m='866010'>n-tuples</span>
+  <span m='866750'>of</span> <span m='866880'>numbers</span> <span m='867840'>x1</span>
+  <span m='868250'>up</span> <span m='868510'>to</span> <span m='868850'>xn.</span>
+  <span m='869850'>Let's</span> <span m='870140'>pick</span> <span m='870550'>two</span>
+  <span m='870720'>particular</span> <span m='871300'>members</span> <span m='871730'>of</span>
+  <span m='871850'>s</span> <span m='872050'>sub</span> <span m='872270'>n,</span>
+  <span m='872480'>which</span> <span m='872650'>we'll</span> <span m='872800'>call</span>
+  <span m='873320'>a-bar</span> <span m='873710'>and</span> <span m='874090'>b-bar.</span>
+  <span m='874830'>Where</span> <span m='875400'>a-bar is</span> <span m='875890'>simply</span>
+  <span m='876220'>an</span> <span m='876330'>abbreviation</span> <span m='877090'>for</span>
+  <span m='877480'>a,</span> <span m='877990'>the</span> <span m='878140'>n-tuple</span>
+  <span m='878740'>a1</span> <span m='879140'>up</span> <span m='879280'>to</span>
+  <span m='879390'>an;</span> <span m='880170'>where</span> <span m='880550'>the</span>
+  <span m='881660'>a1,</span> <span m='881940'>a2</span> <span m='882210'>up</span>
+  <span m='882390'>to</span> <span m='882500'>an,</span> <span m='882860'>et</span>
+  <span m='883080'>cetera</span> <span m='883330'>are</span> <span m='883540'>real</span>
+  <span m='883760'>numbers.</span> <span m='884640'>And</span> <span m='885060'>b-bar</span>
+  <span m='885730'>is</span> <span m='885960'>an</span> <span m='886050'>abbreviation</span>
+  <span m='886690'>for</span> <span m='886770'>the</span> <span m='886900'>n-tuple</span>
+  <span m='887400'>b1.</span> <span m='888100'>et cetera,</span> <span m='888770'>bn;</span>
+  <span m='889550'>where</span> <span m='889800'>b1</span> <span m='891210'>up</span>
+  <span m='891680'>through</span> <span m='891960'>bn</span> <span m='892580'>are</span>
+  <span m='892790'>also</span> <span m='893470'>real</span> <span m='893700'>numbers.</span>
+  </p><p><span m='894870'>Now</span> <span m='894990'>again,</span> <span m='895580'>here's</span>
+  <span m='895930'>where</span> <span m='896360'>structure</span> <span m='896870'>comes</span>
+  <span m='897190'>into</span> <span m='897410'>play.</span> <span m='898120'>We</span>
+  <span m='898520'>have</span> <span m='898750'>already</span> <span m='899140'>defined</span>
+  <span m='900270'>an</span> <span m='900550'>n-tuple</span> <span m='901240'>arithmetic</span>
+  <span m='901810'>in</span> <span m='901940'>terms</span> <span m='902240'>of</span>
+  <span m='902350'>arrows</span> <span m='903730'>for</span> <span m='903840'>the</span>
+  <span m='903950'>case</span> <span m='904260'>when</span> <span m='904370'>n</span>
+  <span m='904580'>is</span> <span m='904690'>either</span> <span m='904940'>one,</span>
+  <span m='905310'>two,</span> <span m='905510'>or</span> <span m='905650'>three.</span>
+  </p><p><span m='907640'>Based</span> <span m='908180'>on</span> <span m='908350'>what</span>
+  <span m='908530'>happens</span> <span m='909200'>when</span> <span m='909370'>n</span>
+  <span m='909570'>is</span> <span m='909740'>one,</span> <span m='910010'>two,</span>
+  <span m='910270'>or</span> <span m='910290'>three,</span> <span m='910910'>we</span>
+  <span m='911360'>invent</span> <span m='911790'>the</span> <span m='911890'>following</span>
+  <span m='912410'>definitions.</span> <span m='913480'>First</span> <span m='913840'>of</span>
+  <span m='913990'>all,</span> <span m='914910'>we</span> <span m='916140'>invent</span>
+  <span m='916690'>the</span> <span m='916790'>definition</span> <span m='917570'>that</span>
+  <span m='917740'>a-bar</span> <span m='918510'>equals</span> <span m='918910'>b-bar</span>
+  <span m='920060'>means</span> <span m='921040'>that</span> <span m='921210'>the</span>
+  <span m='921340'>components--</span> <span m='922560'>meaning</span> <span m='922880'>what?</span>
+  <span m='923080'>The</span> <span m='923230'>individual</span> <span m='923850'>members</span>
+  <span m='924270'>of</span> <span m='924380'>the</span> <span m='924680'>n-tuple--</span>
+  <span m='925350'>the</span> <span m='925510'>components</span> <span m='926230'>of</span>
+  <span m='926350'>a-bar</span> <span m='927320'>are</span> <span m='927600'>equal</span>
+  <span m='927960'>to</span> <span m='928050'>the</span> <span m='928180'>components</span>
+  <span m='928820'>of</span> <span m='928940'>b-bar,</span> <span m='929970'>component</span>
+  <span m='930680'>by</span> <span m='930840'>component.</span> </p><p><span m='931570'>In</span>
+  <span m='931660'>other</span> <span m='931850'>words,</span> <span m='932650'>a1</span>
+  <span m='933170'>is</span> <span m='933310'>equal</span> <span m='933540'>to</span>
+  <span m='933640'>b1,</span> <span m='934730'>a2</span> <span m='934980'>is</span>
+  <span m='935120'>equal</span> <span m='935380'>to</span> <span m='935460'>b2,</span>
+  <span m='935940'>et</span> <span m='936240'>cetera.</span> <span m='936710'>All</span>
+  <span m='936950'>the</span> <span m='937020'>way</span> <span m='937190'>up</span>
+  <span m='937340'>to</span> <span m='937450'>what?</span> <span m='937980'>an</span>
+  <span m='938200'>is</span> <span m='938380'>equal</span> <span m='938680'>to</span>
+  <span m='939260'>bn.</span> <span m='940130'>Now, in</span> <span m='940390'>other</span>
+  <span m='940480'>words</span> <span m='940730'>again,</span> <span m='941250'>what</span>
+  <span m='941420'>we're</span> <span m='941550'>saying</span> <span m='941950'>is</span>
+  <span m='942130'>that</span> <span m='942310'>for</span> <span m='942680'>two n-tuples</span>
+  <span m='943280'>to</span> <span m='943400'>be</span> <span m='943630'>equal,</span>
+  <span m='944310'>by</span> <span m='944600'>definition,</span> <span m='945310'>they</span>
+  <span m='945450'>should</span> <span m='945660'>be</span> <span m='945890'>equal</span>
+  <span m='946600'>component</span> <span m='947220'>by</span> <span m='947380'>component,</span>
+  <span m='948420'>and</span> <span m='948690'>this</span> <span m='948880'>is</span>
+  <span m='949050'>motivated</span> <span m='949680'>by</span> <span m='949820'>the</span>
+  <span m='949950'>fact</span> <span m='950550'>that</span> <span m='950690'>we</span>
+  <span m='950870'>already</span> <span m='951210'>know</span> <span m='951460'>that</span>
+  <span m='951600'>we've</span> <span m='951820'>accepted</span> <span m='952300'>the</span>
+  <span m='952410'>structural</span> <span m='953000'>definition</span> <span m='953880'>for</span>
+  <span m='954030'>the</span> <span m='954140'>case</span> <span m='954420'>of</span>
+  <span m='954540'>arrows.</span> </p><p><span m='955580'>Similarly,</span> <span
+  m='956950'>given</span> <span m='958140'>two</span> <span m='958410'>n-tuples</span>
+  <span m='959100'>a-bar</span> <span m='959660'>and</span> <span m='959770'>b-bar,</span>
+  <span m='960770'>to</span> <span m='960980'>add</span> <span m='961350'>them,</span>
+  <span m='961950'>let</span> <span m='962200'>me</span> <span m='962320'>define</span>
+  <span m='962910'>that</span> <span m='963190'>to</span> <span m='963280'>be the</span>
+  <span m='963810'>n-tuple</span> <span m='964150'>that</span> <span m='964320'>I</span>
+  <span m='964410'>get</span> <span m='965200'>by</span> <span m='965440'>adding</span>
+  <span m='966150'>component</span> <span m='966970'>by</span> <span m='967120'>component.</span>
+  <span m='968140'>In</span> <span m='968280'>other</span> <span m='968450'>words,</span>
+  <span m='968740'>to</span> <span m='968850'>find</span> <span m='969380'>the</span>
+  <span m='969520'>first</span> <span m='969860'>component</span> <span m='970510'>of</span>
+  <span m='970840'>a-bar</span> <span m='971180'>plus</span> <span m='971480'>b-bar,</span>
+  <span m='972540'>I</span> <span m='972690'>add</span> <span m='972930'>the</span>
+  <span m='973020'>first</span> <span m='973420'>component</span> <span m='974040'>of</span>
+  <span m='974160'>a-bar</span> <span m='974950'>to</span> <span m='975090'>the</span>
+  <span m='975200'>first</span> <span m='975530'>component</span> <span m='975820'>of</span>
+  <span m='976250'>b-bar.</span> <span m='977080'>Noticing</span> <span m='977640'>of</span>
+  <span m='977770'>course,</span> <span m='978550'>that</span> <span m='978750'>this</span>
+  <span m='979000'>is</span> <span m='979180'>what?</span> <span m='980970'>Be</span>
+  <span m='981090'>careful</span> <span m='981380'>here.</span> <span m='981690'>This</span>
+  <span m='981920'>is</span> <span m='982090'>one</span> <span m='982450'>number.</span>
+  </p><p><span m='983530'>(a1</span> <span m='983990'>+</span> <span m='984260'>b1)</span>
+  <span m='984740'>is</span> <span m='984940'>one</span> <span m='985220'>number.</span>
+  <span m='985800'>(a2</span> <span m='986240'>+</span> <span m='986560'>b2)</span>
+  <span m='986920'>is</span> <span m='987100'>a</span> <span m='987160'>number.</span>
+  <span m='987750'>(an</span> <span m='988230'>+</span> <span m='988510'>bn)</span>
+  <span m='989040'>is</span> <span m='989180'>a</span> <span m='989250'>number.</span>
+  <span m='990020'>In</span> <span m='990150'>other</span> <span m='990320'>words</span>
+  <span m='990580'>notice</span> <span m='990950'>that</span> <span m='991100'>by</span>
+  <span m='991260'>this</span> <span m='991520'>definition,</span> <span m='992550'>the</span>
+  <span m='992690'>sum</span> <span m='993010'>of</span> <span m='993170'>two</span>
+  <span m='993420'>n-tuples</span> <span m='994940'>is</span> <span m='995130'>again</span>
+  <span m='995760'>an n-tuple.</span> </p><p><span m='997040'>And</span> <span m='997280'>finally,</span>
+  <span m='998380'>to</span> <span m='998510'>multiply</span> <span m='999480'>a</span>
+  <span m='999640'>scalar</span> <span m='1000470'>by</span> <span m='1000660'>an</span>
+  <span m='1000800'>n-tuple,</span> <span m='1001780'>I</span> <span m='1001920'>will</span>
+  <span m='1002140'>agree</span> <span m='1002590'>to</span> <span m='1002820'>define</span>
+  <span m='1003520'>that</span> <span m='1003750'>definition</span> <span m='1004330'>to</span>
+  <span m='1004440'>mean</span> <span m='1005150'>that</span> <span m='1005310'>you</span>
+  <span m='1005430'>multiply</span> <span m='1006610'>the</span> <span m='1007400'>n-tuple</span>
+  <span m='1008930'>component</span> <span m='1009690'>by</span> <span m='1009860'>component</span>
+  <span m='1011050'>by</span> <span m='1011560'>that</span> <span m='1011870'>particular</span>
+  <span m='1012630'>scalar,</span> <span m='1013150'>or</span> <span m='1013430'>number.</span>
+  <span m='1014500'>Notice</span> <span m='1014950'>again</span> <span m='1015420'>that</span>
+  <span m='1015900'>all</span> <span m='1016210'>I</span> <span m='1016320'>have</span>
+  <span m='1016560'>done</span> <span m='1016830'>here</span> <span m='1017360'>is</span>
+  <span m='1017560'>I</span> <span m='1017700'>have</span> <span m='1017870'>obtained</span>
+  <span m='1018730'>these</span> <span m='1019340'>three</span> <span m='1019990'>structural</span>
+  <span m='1021130'>definitions</span> <span m='1022930'>from</span> <span m='1024160'>the</span>
+  <span m='1024500'>equivalent</span> <span m='1025079'>situations</span> <span m='1025880'>of</span>
+  <span m='1026140'>arrows.</span> </p><p><span m='1027020'>And</span> <span m='1027260'>since</span>
+  <span m='1027550'>everything</span> <span m='1028170'>that</span> <span m='1028300'>was</span>
+  <span m='1028560'>true</span> <span m='1028810'>about</span> <span m='1029180'>arrows</span>
+  <span m='1030160'>followed</span> <span m='1030740'>from</span> <span m='1030980'>these</span>
+  <span m='1031319'>three</span> <span m='1031589'>basic</span> <span m='1032040'>definitions,</span>
+  <span m='1033310'>any</span> <span m='1034280'>set</span> <span m='1034530'>up</span>
+  <span m='1034670'>n-tuples</span> <span m='1035630'>that</span> <span m='1035839'>obeys</span>
+  <span m='1036550'>this</span> <span m='1036859'>particular</span> <span m='1037369'>structure</span>
+  <span m='1038089'>will</span> <span m='1038450'>also</span> <span m='1038950'>behave</span>
+  <span m='1039849'>like</span> <span m='1040079'>the</span> <span m='1040250'>arrows</span>
+  <span m='1040760'>did.</span> <span m='1040930'>And</span> <span m='1041050'>that's</span>
+  <span m='1041290'>why</span> <span m='1041540'>we</span> <span m='1041750'>call</span>
+  <span m='1042109'>it</span> <span m='1042520'>a</span> <span m='1042980'>vector</span>
+  <span m='1043440'>space.</span> <span m='1043869'>They</span> <span m='1044010'>behave</span>
+  <span m='1044790'>like</span> <span m='1045310'>vectors</span> <span m='1046200'>even</span>
+  <span m='1046609'>though</span> <span m='1046810'>they</span> <span m='1047000'>can</span>
+  <span m='1047180'>no</span> <span m='1047359'>longer</span> <span m='1047770'>be</span>
+  <span m='1048359'>viewed</span> <span m='1048800'>as</span> <span m='1049050'>arrows.</span>
+  <span m='1050060'>And</span> <span m='1050390'>again</span> <span m='1050740'>there</span>
+  <span m='1050930'>are</span> <span m='1051070'>creative</span> <span m='1051510'>people</span>
+  <span m='1051890'>who</span> <span m='1052010'>view</span> <span m='1052250'>these</span>
+  <span m='1052500'>things</span> <span m='1052770'>as</span> <span m='1052910'>arrows.</span>
+  </p><p><span m='1053780'>I</span> <span m='1053920'>remember</span> <span m='1054150'>feeling</span>
+  <span m='1054480'>very</span> <span m='1054780'>intimidated</span> <span m='1055340'>one</span>
+  <span m='1055550'>day</span> <span m='1055750'>by</span> <span m='1055920'>my</span>
+  <span m='1056110'>undergraduate</span> <span m='1056810'>professor</span> <span
+  m='1057190'>the</span> <span m='1057300'>first</span> <span m='1057560'>time</span>
+  <span m='1057760'>I learned</span> <span m='1058010'>vector</span> <span m='1058240'>spaces.</span>
+  <span m='1059210'>I</span> <span m='1059310'>said,</span> <span m='1059450'>how</span>
+  <span m='1059630'>do</span> <span m='1059700'>you</span> <span m='1059850'>visualize</span>
+  <span m='1060520'>an</span> <span m='1060620'>n-dimensional</span> <span m='1061200'>vector</span>
+  <span m='1061490'>space?</span> <span m='1062180'>And in</span> <span m='1062470'>full</span>
+  <span m='1062660'>seriousness,</span> <span m='1063210'>without</span> <span m='1063430'>batting</span>
+  <span m='1063700'>an</span> <span m='1063810'>eyelash,</span> <span m='1064250'>he</span>
+  <span m='1064350'>says,</span> <span m='1064470'>"I</span> <span m='1064550'>visualize</span>
+  <span m='1065170'>it</span> <span m='1065470'>like</span> <span m='1065690'>a</span>
+  <span m='1065770'>porcupine</span> <span m='1066490'>with</span> <span m='1066590'>a</span>
+  <span m='1066630'>bunch</span> <span m='1066890'>of</span> <span m='1066960'>quills</span>
+  <span m='1067350'>coming</span> <span m='1067640'>out</span> <span m='1067790'>of</span>
+  <span m='1067900'>it."</span> <span m='1068460'>And</span> <span m='1068620'>I</span>
+  <span m='1068740'>knew</span> <span m='1069070'>that he</span> <span m='1069260'>knew</span>
+  <span m='1069400'>what</span> <span m='1069660'>was</span> <span m='1069860'>visualizing</span>
+  <span m='1070530'>it</span> <span m='1070590'>like,</span> <span m='1071020'>but</span>
+  <span m='1071240'>didn't</span> <span m='1071440'>help</span> <span m='1071650'>me</span>
+  <span m='1072110'>one</span> <span m='1072580'>bit.</span> </p><p><span m='1072850'>I'm</span>
+  <span m='1073090'>saying,</span> <span m='1073490'>if</span> <span m='1073750'>you</span>
+  <span m='1073880'>can</span> <span m='1074010'>visualize</span> <span m='1074570'>this</span>
+  <span m='1074740'>things</span> <span m='1074980'>as</span> <span m='1075130'>arrows,</span>
+  <span m='1075800'>be</span> <span m='1075980'>my</span> <span m='1076180'>guest.</span>
+  <span m='1076650'>Feel</span> <span m='1076920'>free</span> <span m='1077200'>to</span>
+  <span m='1077320'>do</span> <span m='1077510'>so.</span> <span m='1078030'>If</span>
+  <span m='1078250'>you</span> <span m='1078430'>can't,</span> <span m='1079110'>notice</span>
+  <span m='1079320'>that</span> <span m='1079690'>every</span> <span m='1080050'>one</span>
+  <span m='1080260'>of</span> <span m='1080380'>these</span> <span m='1080610'>definitions</span>
+  <span m='1081710'>stands</span> <span m='1082300'>on</span> <span m='1082520'>its</span>
+  <span m='1083170'>own</span> <span m='1083750'>two</span> <span m='1084160'>feet.</span>
+  <span m='1085130'>Subject</span> <span m='1085640'>to</span> <span m='1085760'>the</span>
+  <span m='1085890'>condition</span> <span m='1086450'>that</span> <span m='1086590'>when</span>
+  <span m='1086760'>n</span> <span m='1086950'>is</span> <span m='1087110'>one,</span>
+  <span m='1087420'>two,</span> <span m='1087600'>or</span> <span m='1087690'>three,</span>
+  <span m='1088220'>we</span> <span m='1088520'>happen</span> <span m='1088840'>to</span>
+  <span m='1088940'>have</span> <span m='1089180'>a</span> <span m='1089240'>very</span>
+  <span m='1089540'>nice</span> <span m='1090100'>geometric</span> <span m='1090630'>interpretation.</span>
+  <span m='1092130'>By</span> <span m='1092280'>the</span> <span m='1092380'>way,</span>
+  <span m='1093280'>I</span> <span m='1093410'>may</span> <span m='1093680'>have</span>
+  <span m='1093810'>given</span> <span m='1094090'>you</span> <span m='1094240'>the</span>
+  <span m='1094450'>impression</span> <span m='1095010'>that</span> <span m='1095190'>vector</span>
+  <span m='1095520'>spaces</span> <span m='1096160'>were</span> <span m='1096360'>invented</span>
+  <span m='1097310'>because</span> <span m='1097690'>of</span> <span m='1097780'>functions</span>
+  <span m='1098320'>of</span> <span m='1098410'>several</span> <span m='1098750'>variables.</span>
+  </p><p><span m='1099640'>Rather,</span> <span m='1100050'>the</span> <span m='1100210'>impression</span>
+  <span m='1100700'>I</span> <span m='1100770'>would</span> <span m='1100910'>like</span>
+  <span m='1101120'>to</span> <span m='1101220'>leave</span> <span m='1101520'>you</span>
+  <span m='1101640'>with</span> <span m='1102280'>is,</span> <span m='1102460'>that</span>
+  <span m='1102530'>in</span> <span m='1102690'>terms</span> <span m='1103020'>of</span>
+  <span m='1103170'>motivating</span> <span m='1103850'>vector</span> <span m='1104190'>spaces,</span>
+  <span m='1104720'>in</span> <span m='1104850'>terms</span> <span m='1105210'>of</span>
+  <span m='1105390'>this</span> <span m='1105630'>course,</span> <span m='1106420'>that</span>
+  <span m='1106660'>was</span> <span m='1106840'>the</span> <span m='1106950'>motivation</span>
+  <span m='1107610'>that</span> <span m='1107750'>we</span> <span m='1107880'>elected</span>
+  <span m='1108250'>to</span> <span m='1108350'>use.</span> <span m='1109050'>That
+  the</span> <span m='1109280'>mathematician</span> <span m='1110050'>talked</span>
+  <span m='1110300'>about</span> <span m='1110560'>vector</span> <span m='1110820'>spaces</span>
+  <span m='1111660'>in</span> <span m='1112130'>many</span> <span m='1112570'>a</span>
+  <span m='1112630'>different</span> <span m='1112980'>context</span> <span m='1113580'>from</span>
+  <span m='1113720'>what</span> <span m='1113890'>we</span> <span m='1113990'>might</span>
+  <span m='1114220'>even</span> <span m='1114450'>dream</span> <span m='1114730'>possible.</span>
+  </p><p><span m='1116300'>In other words, I</span> <span m='1116370'>don't</span>
+  <span m='1116540'>even have</span> <span m='1116650'>to</span> <span m='1116740'>think</span>
+  <span m='1117470'>of</span> <span m='1117640'>temperature</span> <span m='1118160'>being</span>
+  <span m='1118490'>a</span> <span m='1118540'>function</span> <span m='1119010'>of</span>
+  <span m='1119090'>the</span> <span m='1119180'>four</span> <span m='1119440'>variables</span>
+  <span m='1119970'>x, y,</span> <span m='1120325'>z,</span> <span m='1120680'>and</span>
+  <span m='1120820'>t.</span> <span m='1121460'>Let</span> <span m='1121610'>me</span>
+  <span m='1121730'>give</span> <span m='1121900'>you</span> <span m='1122050'>a</span>
+  <span m='1122120'>different</span> <span m='1122440'>kind</span> <span m='1122750'>of</span>
+  <span m='1122840'>non-trivial</span> <span m='1123610'>example</span> <span m='1124070'>of</span>
+  <span m='1124170'>a</span> <span m='1124230'>four</span> <span m='1124620'>space</span>
+  <span m='1125360'>that</span> <span m='1125530'>doesn't</span> <span m='1125900'>even</span>
+  <span m='1126210'>bring</span> <span m='1126870'>functions</span> <span m='1127570'>into</span>
+  <span m='1129000'>play.</span> <span m='1129230'>Let's suppose</span> <span m='1129700'>I</span>
+  <span m='1129810'>invent</span> <span m='1130200'>the</span> <span m='1130470'>abbreviation,</span>
+  <span m='1132940'>I</span> <span m='1133090'>write</span> <span m='1133320'>the</span>
+  <span m='1133400'>4-tuple</span> <span m='1134090'>(a0,</span> <span m='1134840'>a1,</span>
+  <span m='1135550'>a2,</span> <span m='1136210'>a3),</span> <span m='1137350'>to</span>
+  <span m='1137530'>denote</span> <span m='1138350'>the</span> <span m='1138460'>cubic</span>
+  <span m='1139350'>polynomial</span> <span m='1140160'>a0</span> <span m='1141020'>+</span>
+  <span m='1141550'>a1 x</span> <span m='1142140'>+</span> <span m='1142720'>a2</span>
+  <span m='1142930'>x^2</span> <span m='1143570'>+</span> <span m='1144100'>a3</span>
+  <span m='1144370'>x^3.</span> </p><p><span m='1145540'>Notice</span> <span m='1145940'>that</span>
+  <span m='1146390'>I</span> <span m='1146520'>can</span> <span m='1146730'>use</span>
+  <span m='1146980'>these</span> <span m='1147290'>as</span> <span m='1147530'>a</span>
+  <span m='1147660'>place</span> <span m='1148120'>value</span> <span m='1148540'>system.</span>
+  <span m='1149670'>The</span> <span m='1149760'>first</span> <span m='1150140'>member</span>
+  <span m='1150470'>tells</span> <span m='1150770'>me</span> <span m='1150850'>my</span>
+  <span m='1151040'>constant</span> <span m='1151600'>term,</span> <span m='1152230'>the</span>
+  <span m='1152350'>second</span> <span m='1152780'>member</span> <span m='1153120'>tells</span>
+  <span m='1153450'>me</span> <span m='1153580'>the</span> <span m='1153710'>coefficient</span>
+  <span m='1154260'>of</span> <span m='1154360'>x,</span> <span m='1154920'>the</span>
+  <span m='1155080'>third</span> <span m='1155400'>member</span> <span m='1155700'>tells</span>
+  <span m='1155990'>me</span> <span m='1156090'>the</span> <span m='1156190'>coefficient</span>
+  <span m='1156740'>of</span> <span m='1156840'>x^2,</span> <span m='1157660'>and</span>
+  <span m='1157810'>the</span> <span m='1157960'>fourth</span> <span m='1158220'>number</span>
+  <span m='1158460'>gives</span> <span m='1158670'>me</span> <span m='1158770'>the</span>
+  <span m='1159280'>coefficient</span> <span m='1159790'>of</span> <span m='1159900'>x^3.</span>
+  <span m='1160890'>Notice</span> <span m='1161320'>that</span> <span m='1161520'>for</span>
+  <span m='1161680'>two</span> <span m='1162410'>polynomials</span> <span m='1163250'>to</span>
+  <span m='1163350'>be</span> <span m='1163520'>identically</span> <span m='1163980'>equal,</span>
+  <span m='1164790'>they</span> <span m='1164940'>must</span> <span m='1165250'>be</span>
+  <span m='1165560'>equal,</span> <span m='1166800'>what?</span> <span m='1167280'>Coefficient</span>
+  <span m='1167940'>by</span> <span m='1168080'>coefficient.</span> </p><p><span m='1169110'>That</span>
+  <span m='1169350'>means</span> <span m='1169570'>what?</span> <span m='1170870'>Component</span>
+  <span m='1171500'>by</span> <span m='1171640'>component.</span> <span m='1172700'>How</span>
+  <span m='1172920'>do</span> <span m='1173000'>we</span> <span m='1173200'>add</span>
+  <span m='1173440'>two</span> <span m='1173580'>polynomials?</span> <span m='1174740'>We</span>
+  <span m='1175080'>add</span> <span m='1175340'>them</span> <span m='1176220'>coefficient</span>
+  <span m='1177230'>by</span> <span m='1177390'>coefficient.</span> <span m='1178080'>We</span>
+  <span m='1178250'>add</span> <span m='1178480'>like</span> <span m='1178800'>terms.</span>
+  <span m='1179200'>In</span> <span m='1179290'>other</span> <span m='1179440'>words,</span>
+  <span m='1180060'>given</span> <span m='1180360'>two</span> <span m='1180920'>polynomials,</span>
+  <span m='1181660'>we</span> <span m='1181840'>add</span> <span m='1181990'>them</span>
+  <span m='1182130'>what?</span> <span m='1182830'>Component</span> <span m='1183440'>by</span>
+  <span m='1183610'>component.</span> <span m='1184230'>We</span> <span m='1184400'>add</span>
+  <span m='1184550'>the</span> <span m='1184640'>two</span> <span m='1184820'>constant</span>
+  <span m='1185260'>terms</span> <span m='1185530'>together,</span> <span m='1186220'>the</span>
+  <span m='1186350'>two</span> <span m='1186520'>coefficients</span> <span m='1187080'>of</span>
+  <span m='1187190'>x</span> <span m='1187400'>together,</span> <span m='1188090'>the</span>
+  <span m='1188250'>two</span> <span m='1188430'>coefficients</span> <span m='1189000'>of</span>
+  <span m='1189140'>x^2</span> <span m='1189640'>together,</span> <span m='1190360'>the</span>
+  <span m='1190480'>two</span> <span m='1190650'>coefficients</span> <span m='1191250'>of</span>
+  <span m='1191760'>x^3</span> <span m='1192330'>together.</span> <span m='1192730'>You
+  see?</span> </p><p><span m='1193630'>How</span> <span m='1193850'>do</span> <span
+  m='1193920'>we</span> <span m='1194040'>multiply</span> <span m='1194650'>a</span>
+  <span m='1194730'>polynomial</span> <span m='1195420'>by</span> <span m='1195600'>a</span>
+  <span m='1195680'>scalar?</span> <span m='1196320'>We</span> <span m='1196630'>multiply</span>
+  <span m='1197360'>each</span> <span m='1197670'>term</span> <span m='1198190'>by</span>
+  <span m='1198530'>the</span> <span m='1198660'>scalar.</span> <span m='1199420'>That</span>
+  <span m='1199670'>in</span> <span m='1199820'>turn</span> <span m='1200100'>is</span>
+  <span m='1200220'>equivalent</span> <span m='1200730'>to</span> <span m='1200810'>multiplying</span>
+  <span m='1201490'>each</span> <span m='1201740'>coefficient</span> <span m='1202340'>by</span>
+  <span m='1202460'>that</span> <span m='1202690'>scalar.</span> <span m='1203610'>And
+  that</span> <span m='1203900'>says</span> <span m='1204220'>in</span> <span m='1204410'>terms</span>
+  <span m='1204690'>of</span> <span m='1204790'>n-tuple</span> <span m='1205240'>notation,</span>
+  <span m='1206120'>that</span> <span m='1206300'>we</span> <span m='1206450'>have</span>
+  <span m='1206650'>multiplied</span> <span m='1207360'>each</span> <span m='1207660'>component</span>
+  <span m='1208290'>by</span> <span m='1208390'>that</span> <span m='1208590'>scalar.</span>
+  </p><p><span m='1210100'>The</span> <span m='1210190'>set</span> <span m='1210380'>of</span>
+  <span m='1210510'>polynomials</span> <span m='1211390'>of</span> <span m='1211480'>degree</span>
+  <span m='1211890'>n</span> <span m='1212450'>forms</span> <span m='1212890'>a</span>
+  <span m='1212950'>very</span> <span m='1213220'>nice</span> <span m='1214240'>vector</span>
+  <span m='1214650'>space</span> <span m='1215290'>in</span> <span m='1215510'>terms</span>
+  <span m='1215830'>of</span> <span m='1215960'>our</span> <span m='1216110'>definition</span>
+  <span m='1216680'>of</span> <span m='1216770'>a</span> <span m='1216810'>vector</span>
+  <span m='1217110'>space.</span> <span m='1218150'>Now</span> <span m='1218430'>of</span>
+  <span m='1218590'>course</span> <span m='1218850'>the</span> <span m='1218960'>danger</span>
+  <span m='1219460'>is</span> <span m='1220020'>that</span> <span m='1220170'>one</span>
+  <span m='1220420'>gets</span> <span m='1220640'>the</span> <span m='1220810'>idea</span>
+  <span m='1221670'>that</span> <span m='1221840'>any</span> <span m='1222190'>set</span>
+  <span m='1222430'>of</span> <span m='1222560'>n-tuples</span> <span m='1223510'>can</span>
+  <span m='1223720'>be</span> <span m='1223870'>viewed</span> <span m='1224210'>as</span>
+  <span m='1224410'>a</span> <span m='1224500'>vector</span> <span m='1224860'>space.</span>
+  <span m='1225250'>An</span> <span m='1225360'>n-dimensional</span> <span m='1226030'>vector</span>
+  <span m='1226320'>space.</span> <span m='1227080'>But</span> <span m='1227460'>this</span>
+  <span m='1227750'>we</span> <span m='1227890'>have</span> <span m='1228070'>to</span>
+  <span m='1228170'>be</span> <span m='1228320'>careful</span> <span m='1228730'>about.</span>
+  <span m='1229050'>Remember,</span> <span m='1229720'>it is</span> <span m='1230110'>not</span>
+  <span m='1230350'>the</span> <span m='1230490'>n-tuples,</span> <span m='1231380'>it</span>
+  <span m='1231590'>is</span> <span m='1231750'>structure</span> <span m='1232370'>that</span>
+  <span m='1232520'>they</span> <span m='1232660'>obey.</span> </p><p><span m='1233380'>Let</span>
+  <span m='1233530'>me</span> <span m='1233630'>give</span> <span m='1233800'>you</span>
+  <span m='1233880'>sort</span> <span m='1234140'>of</span> <span m='1234280'>a</span>
+  <span m='1234590'>simple</span> <span m='1235030'>example</span> <span m='1235560'>over</span>
+  <span m='1235790'>here.</span> <span m='1236600'>Let</span> <span m='1236800'>me</span>
+  <span m='1237070'>consider</span> <span m='1237460'>the</span> <span m='1237550'>following</span>
+  <span m='1237980'>situation.</span> <span m='1238520'>First</span> <span m='1238770'>of</span>
+  <span m='1238860'>all,</span> <span m='1238930'>let</span> <span m='1239020'>me</span>
+  <span m='1239110'>just</span> <span m='1239290'>emphasize</span> <span m='1239820'>a</span>
+  <span m='1239870'>statement</span> <span m='1240220'>I</span> <span m='1240320'>just</span>
+  <span m='1240540'>made</span> <span m='1240820'>it,</span> <span m='1241150'>let</span>
+  <span m='1241310'>me</span> <span m='1241390'>just</span> <span m='1241580'>read</span>
+  <span m='1241760'>it</span> <span m='1241850'>with</span> <span m='1242050'>you.</span>
+  <span m='1242450'>n-tuples</span> <span m='1243280'>are</span> <span m='1243510'>not</span>
+  <span m='1244060'>automatically</span> <span m='1245490'>n-spaces.</span> <span
+  m='1246640'>For</span> <span m='1246850'>example,</span> <span m='1247670'>let</span>
+  <span m='1247960'>me invent</span> <span m='1249520'>the</span> <span m='1249650'>2-tuple</span>
+  <span m='1250330'>(a,</span> <span m='1250850'>b)</span> <span m='1251600'>to</span>
+  <span m='1251740'>represent</span> <span m='1252600'>the</span> <span m='1252730'>number</span>
+  <span m='1253360'>a</span> <span m='1253540'>+</span> <span m='1253930'>b.</span>
+  </p><p><span m='1254940'>For</span> <span m='1255210'>example,</span> <span m='1256180'>if</span>
+  <span m='1256450'>I</span> <span m='1256560'>define</span> <span m='1257130'>the</span>
+  <span m='1257260'>2-tuple</span> <span m='1257860'>(a,</span> <span m='1258390'>b)</span>
+  <span m='1258690'>to</span> <span m='1258820'>be</span> <span m='1258990'>an</span>
+  <span m='1259070'>abbreviation</span> <span m='1259750'>for</span> <span m='1259850'>a</span>
+  <span m='1260060'>+</span> <span m='1260420'>b,</span> <span m='1260980'>What</span>
+  <span m='1261290'>would</span> <span m='1261600'>(4,</span> <span m='1263020'>5)</span>
+  <span m='1263872'>denote?</span> <span m='1265230'>Remember</span> <span m='1265450'>the</span>
+  <span m='1265560'>2-tuple</span> <span m='1265970'>means</span> <span m='1266200'>what?</span>
+  <span m='1266460'>To</span> <span m='1266540'>get</span> <span m='1267210'>the</span>
+  <span m='1267300'>value</span> <span m='1267650'>of</span> <span m='1267730'>the</span>
+  <span m='1267840'>2-tuple</span> <span m='1268490'>is</span> <span m='1268610'>just</span>
+  <span m='1268910'>the sum</span> <span m='1269420'>of</span> <span m='1269590'>the</span>
+  <span m='1269700'>components.</span> <span m='1270760'>If</span> <span m='1270990'>I</span>
+  <span m='1271090'>add</span> <span m='1271380'>a and</span> <span m='1271770'>b,</span>
+  <span m='1271930'>in</span> <span m='1272040'>this</span> <span m='1272240'>case,</span>
+  <span m='1272580'>4</span> <span m='1272840'>+</span> <span m='1273180'>5</span>
+  <span m='1273790'>happens</span> <span m='1274180'>to</span> <span m='1274270'>be</span>
+  <span m='1275530'>9.</span> <span m='1276610'>How</span> <span m='1276830'>about</span>
+  <span m='1277180'>the</span> <span m='1277290'>2-tuple</span> <span m='1277820'>(6,</span>
+  <span m='1278450'>3)?</span> <span m='1278900'>What</span> <span m='1279350'>value</span>
+  <span m='1279720'>would</span> <span m='1279870'>that</span> <span m='1280060'>have?</span>
+  <span m='1281360'>That</span> <span m='1281510'>would</span> <span m='1281660'>also</span>
+  <span m='1282030'>have</span> <span m='1282530'>the</span> <span m='1282630'>value</span>
+  <span m='1283450'>9.</span> </p><p><span m='1284210'>Therefore</span> <span m='1284720'>numerically,</span>
+  <span m='1285690'>the</span> <span m='1285860'>2-tuple</span> <span m='1286400'>(4,
+  5)</span> <span m='1287720'>is</span> <span m='1287910'>equal</span> <span m='1288240'>to</span>
+  <span m='1288350'>the</span> <span m='1288490'>2-tuple</span> <span m='1289510'>(6,
+  3).</span> <span m='1290870'>Yet</span> <span m='1291110'>notice</span> <span m='1291800'>that</span>
+  <span m='1291940'>the</span> <span m='1292010'>first</span> <span m='1292340'>component</span>
+  <span m='1292940'>is</span> <span m='1293500'>not</span> <span m='1293740'>equal</span>
+  <span m='1294100'>to</span> <span m='1294200'>the</span> <span m='1294290'>first</span>
+  <span m='1294600'>component</span> <span m='1295190'>here.</span> <span m='1295690'>In</span>
+  <span m='1295770'>other</span> <span m='1295910'>words</span> <span m='1296190'>4</span>
+  <span m='1296700'>is</span> <span m='1296900'>not</span> <span m='1297290'>equal</span>
+  <span m='1297580'>to</span> <span m='1297670'>6.</span> <span m='1298630'>Nor</span>
+  <span m='1299020'>is</span> <span m='1299280'>5</span> <span m='1299770'>is</span>
+  <span m='1299950'>equal</span> <span m='1300560'>to</span> <span m='1300670'>3,</span>
+  <span m='1302120'>but</span> <span m='1302290'>if</span> <span m='1302420'>I</span>
+  <span m='1302490'>were</span> <span m='1302610'>to</span> <span m='1302730'>choose</span>
+  <span m='1303130'>this</span> <span m='1303340'>definition</span> <span m='1303940'>of</span>
+  <span m='1304030'>equality,</span> <span m='1304950'>I</span> <span m='1305100'>could</span>
+  <span m='1305330'>not</span> <span m='1305580'>say</span> <span m='1305790'>that</span>
+  <span m='1305960'>these</span> <span m='1306170'>2-tuples</span> <span m='1307180'>form</span>
+  <span m='1307940'>a</span> <span m='1308130'>two</span> <span m='1308310'>dimensional</span>
+  <span m='1308850'>vector</span> <span m='1309160'>space,</span> <span m='1309930'>because</span>
+  <span m='1310520'>it</span> <span m='1310710'>violates</span> <span m='1311770'>the</span>
+  <span m='1311880'>first</span> <span m='1312710'>definition</span> <span m='1313380'>for</span>
+  <span m='1313620'>a</span> <span m='1313980'>vector</span> <span m='1314380'>space,</span>
+  <span m='1314650'>namely</span> <span m='1314910'>the</span> <span m='1315000'>definition</span>
+  <span m='1315860'>of</span> <span m='1316040'>what</span> <span m='1316180'>it</span>
+  <span m='1316280'>means</span> <span m='1316550'>for</span> <span m='1316650'>two</span>
+  <span m='1316800'>vectors</span> <span m='1317200'>to</span> <span m='1317300'>be</span>
+  <span m='1317500'>equal.</span> </p><p><span m='1319710'>Since</span> <span m='1320010'>we're</span>
+  <span m='1320130'>going</span> <span m='1320380'>to</span> <span m='1320480'>let</span>
+  <span m='1320660'>most</span> <span m='1321000'>of our</span> <span m='1321260'>material</span>
+  <span m='1321790'>be</span> <span m='1321970'>covered</span> <span m='1322820'>by</span>
+  <span m='1323490'>the</span> <span m='1323720'>exercises</span> <span m='1324690'>and</span>
+  <span m='1324820'>the</span> <span m='1324890'>supplementary</span> <span m='1325550'>notes,</span>
+  <span m='1326150'>and</span> <span m='1326320'>this</span> <span m='1326440'>is</span>
+  <span m='1326540'>just</span> <span m='1326750'>to</span> <span m='1326830'>be</span>
+  <span m='1327010'>an</span> <span m='1327100'>overview,</span> <span m='1328050'>let's</span>
+  <span m='1328340'>move</span> <span m='1328850'>on</span> <span m='1329200'>now.</span>
+  <span m='1329850'>Let's</span> <span m='1330100'>assume</span> <span m='1330480'>that</span>
+  <span m='1330610'>we</span> <span m='1330750'>now</span> <span m='1330990'>know</span>
+  <span m='1331250'>what</span> <span m='1332030'>n-dimensional</span> <span m='1332730'>vector</span>
+  <span m='1333020'>spaces</span> <span m='1333510'>are</span> <span m='1333590'>like.</span>
+  <span m='1334200'>We</span> <span m='1334470'>now</span> <span m='1334730'>know</span>
+  <span m='1335050'>that</span> <span m='1335220'>we</span> <span m='1335360'>can</span>
+  <span m='1335530'>view</span> <span m='1335790'>functions</span> <span m='1336350'>of</span>
+  <span m='1336450'>several</span> <span m='1336820'>variables</span> <span m='1337850'>as</span>
+  <span m='1338130'>functions</span> <span m='1338690'>that</span> <span m='1338890'>map</span>
+  <span m='1339210'>n-tuples</span> <span m='1339990'>into</span> <span m='1340250'>numbers,</span>
+  <span m='1341130'>and</span> <span m='1341330'>as</span> <span m='1341600'>a</span>
+  <span m='1341640'>result</span> <span m='1342510'>it</span> <span m='1342730'>now</span>
+  <span m='1343320'>makes</span> <span m='1343620'>sense</span> <span m='1343900'>to</span>
+  <span m='1344030'>talk</span> <span m='1344310'>about</span> <span m='1344880'>things</span>
+  <span m='1345230'>like</span> <span m='1345600'>suppose</span> <span m='1346020'>you</span>
+  <span m='1346120'>were</span> <span m='1346210'>given</span> <span m='1346480'>the</span>
+  <span m='1346620'>n-tuple</span> <span m='1347410'>(x1,</span> <span m='1347930'>x2,</span>
+  <span m='1348390'>x3,</span> <span m='1348620'>x4),</span> <span m='1349550'>and</span>
+  <span m='1349720'>supposed</span> <span m='1350170'>that</span> <span m='1351100'>under</span>
+  <span m='1351340'>f,</span> <span m='1351980'>that</span> <span m='1352470'>n-tuple</span>
+  <span m='1352850'>was</span> <span m='1353050'>mapped</span> <span m='1353420'>into</span>
+  <span m='1353980'>x1^3</span> <span m='1354680'>+</span> <span m='1355260'>x2</span>
+  <span m='1355830'>+</span> <span m='1356110'>x3^2</span> <span m='1357000'>+</span>
+  <span m='1357460'>2*x4.</span> </p><p><span m='1359430'>For</span> <span m='1359710'>example,</span>
+  <span m='1360690'>if</span> <span m='1360940'>I</span> <span m='1361060'>were</span>
+  <span m='1361190'>to</span> <span m='1361310'>replace</span> <span m='1362210'>x1</span>
+  <span m='1362720'>by</span> <span m='1362980'>1,</span> <span m='1364540'>x2</span>
+  <span m='1364760'>by</span> <span m='1365050'>3,</span> <span m='1366230'>x3</span>
+  <span m='1366460'>by</span> <span m='1366730'>1,</span> <span m='1367390'>and</span>
+  <span m='1367580'>x4</span> <span m='1368170'>by</span> <span m='1368480'>2,</span>
+  <span m='1369610'>I</span> <span m='1369820'>would</span> <span m='1370540'>arrive</span>
+  <span m='1371050'>at</span> <span m='1371140'>the</span> <span m='1371220'>result</span>
+  <span m='1371630'>what?</span> <span m='1372170'>1^3</span> <span m='1373410'>+</span>
+  <span m='1373850'>3</span> <span m='1374620'>+</span> <span m='1374930'>1^2</span>
+  <span m='1375980'>+</span> <span m='1376280'>2</span> <span m='1376460'>*</span>
+  <span m='1376880'>2,</span> <span m='1377130'>and</span> <span m='1377220'>I</span>
+  <span m='1377300'>can</span> <span m='1377450'>compute</span> <span m='1377860'>that</span>
+  <span m='1378060'>output.</span> </p><p><span m='1379130'>Now</span> <span m='1379660'>the</span>
+  <span m='1379760'>question</span> <span m='1380120'>that comes</span> <span m='1380340'>up</span>
+  <span m='1380460'>in</span> <span m='1380600'>calculus</span> <span m='1381190'>is,</span>
+  <span m='1381370'>can</span> <span m='1381490'>we</span> <span m='1381600'>talk</span>
+  <span m='1381820'>about</span> <span m='1382090'>limits</span> <span m='1382430'>here?</span>
+  <span m='1383250'>Instead</span> <span m='1383430'>of</span> <span m='1383600'>computing</span>
+  <span m='1384360'>what</span> <span m='1384580'>f(1,3,1,2)</span> <span m='1387540'>is,</span>
+  <span m='1388280'>can</span> <span m='1388430'>I</span> <span m='1388510'>compute</span>
+  <span m='1388940'>the</span> <span m='1389040'>limit</span> <span m='1389350'>of</span>
+  <span m='1389450'>this</span> <span m='1389690'>thing</span> <span m='1390300'>as</span>
+  <span m='1390810'>(x1,</span> <span m='1391370'>x2,</span> <span m='1391890'>x3,</span>
+  <span m='1392120'>x4)</span> <span m='1393000'>approaches</span> <span m='1393950'>(1,</span>
+  <span m='1394880'>3,</span> <span m='1395560'>1,</span> <span m='1396200'>2)?</span>
+  </p><p><span m='1397390'>I</span> <span m='1397660'>think</span> <span m='1397930'>intuitively</span>
+  <span m='1398740'>it's</span> <span m='1398970'>clear</span> <span m='1399750'>that</span>
+  <span m='1399970'>since</span> <span m='1400230'>equality</span> <span m='1400920'>means</span>
+  <span m='1401320'>that</span> <span m='1401620'>you</span> <span m='1401780'>must</span>
+  <span m='1402040'>have</span> <span m='1402220'>equality</span> <span m='1402830'>component</span>
+  <span m='1403340'>by</span> <span m='1403490'>component,</span> <span m='1404590'>to</span>
+  <span m='1404720'>say</span> <span m='1405000'>that</span> <span m='1405300'>this</span>
+  <span m='1406090'>approaches</span> <span m='1406780'>this</span> <span m='1407500'>means</span>
+  <span m='1407850'>that</span> <span m='1408000'>the</span> <span m='1408090'>first</span>
+  <span m='1408460'>component</span> <span m='1409100'>here</span> <span m='1409600'>must</span>
+  <span m='1409890'>approach</span> <span m='1410280'>the</span> <span m='1410370'>first</span>
+  <span m='1410700'>component</span> <span m='1411330'>here.</span> <span m='1411810'>The</span>
+  <span m='1411910'>second</span> <span m='1412250'>component</span> <span m='1412860'>here</span>
+  <span m='1413090'>approaches</span> <span m='1413420'>is</span> <span m='1413510'>the</span>
+  <span m='1413580'>second</span> <span m='1413880'>component</span> <span m='1414440'>here</span>
+  <span m='1414660'>et cetera.</span> </p><p><span m='1415540'>In</span> <span m='1415670'>other</span>
+  <span m='1415840'>words,</span> <span m='1416410'>this</span> <span m='1416660'>could</span>
+  <span m='1416820'>be</span> <span m='1417000'>replaced</span> <span m='1417960'>by</span>
+  <span m='1418130'>the</span> <span m='1418260'>four</span> <span m='1418640'>separate</span>
+  <span m='1419410'>linear</span> <span m='1420240'>one</span> <span m='1420580'>dimensional</span>
+  <span m='1421180'>limit</span> <span m='1421440'>problems:</span> <span m='1422560'>x1</span>
+  <span m='1422780'>approaches</span> <span m='1423320'>1,</span> <span m='1424300'>x2</span>
+  <span m='1424490'>approaches</span> <span m='1425080'>3,</span> <span m='1426030'>x3</span>
+  <span m='1426270'>approaches</span> <span m='1426780'>1,</span> <span m='1427400'>and</span>
+  <span m='1427580'>x4</span> <span m='1428160'>approaches</span> <span m='1428425'>2.</span>
+  <span m='1429090'>And</span> <span m='1429440'>we</span> <span m='1429530'>would</span>
+  <span m='1429800'>then</span> <span m='1429980'>be</span> <span m='1430110'>tempted</span>
+  <span m='1430440'>to</span> <span m='1430510'>say</span> <span m='1430700'>what?</span>
+  <span m='1431360'>We</span> <span m='1431680'>will</span> <span m='1432080'>replace</span>
+  <span m='1433640'>x1</span> <span m='1434080'>by</span> <span m='1434330'>1.</span>
+  <span m='1434660'>x2</span> <span m='1434880'>by</span> <span m='1435240'>3,</span>
+  <span m='1436440'>x3</span> <span m='1436660'>by</span> <span m='1436890'>1,</span>
+  <span m='1437630'>x4</span> <span m='1438180'>by</span> <span m='1438430'>2.</span>
+  <span m='1439290'>See</span> <span m='1439530'>what</span> <span m='1439710'>happens</span>
+  <span m='1440200'>to</span> <span m='1440310'>this</span> <span m='1440540'>expression?</span>
+  </p><p><span m='1441610'>And</span> <span m='1441850'>we</span> <span m='1441930'>would</span>
+  <span m='1442300'>then</span> <span m='1442540'>be</span> <span m='1442700'>tempted</span>
+  <span m='1443050'>to</span> <span m='1443140'>say</span> <span m='1443450'>that</span>
+  <span m='1443620'>this</span> <span m='1443800'>particular</span> <span m='1444290'>limit</span>
+  <span m='1444750'>was</span> <span m='1445480'>equal</span> <span m='1446110'>to</span>
+  <span m='1446260'>9.</span> <span m='1447390'>Now</span> <span m='1448020'>the</span>
+  <span m='1448110'>interesting</span> <span m='1448540'>point</span> <span m='1448850'>is</span>
+  <span m='1449010'>this--</span> <span m='1449730'>that</span> <span m='1449890'>traditionally,</span>
+  <span m='1451020'>this</span> <span m='1451250'>particular</span> <span m='1451740'>problem</span>
+  <span m='1452290'>was</span> <span m='1452510'>tackled</span> <span m='1453430'>long</span>
+  <span m='1453990'>before</span> <span m='1454920'>anyone</span> <span m='1455510'>invented</span>
+  <span m='1456000'>vector</span> <span m='1456260'>spaces.</span> <span m='1457700'>Or</span>
+  <span m='1457940'>at</span> <span m='1458000'>least</span> <span m='1458360'>long</span>
+  <span m='1458720'>before</span> <span m='1459140'>anybody</span> <span m='1459650'>was</span>
+  <span m='1459830'>serious</span> <span m='1460260'>about</span> <span m='1460540'>vector</span>
+  <span m='1460900'>spaces.</span> </p><p><span m='1463290'>People</span> <span m='1463700'>did</span>
+  <span m='1463850'>say,</span> <span m='1464110'>why</span> <span m='1464430'>can't</span>
+  <span m='1464830'>we</span> <span m='1464990'>reduce</span> <span m='1465490'>the</span>
+  <span m='1465580'>study</span> <span m='1465980'>of</span> <span m='1466050'>four</span>
+  <span m='1466350'>dimensional</span> <span m='1466900'>space</span> <span m='1467680'>to</span>
+  <span m='1467800'>four</span> <span m='1468130'>separate</span> <span m='1468540'>studies</span>
+  <span m='1468950'>of</span> <span m='1469060'>one</span> <span m='1469260'>dimensional</span>
+  <span m='1469780'>space?</span> <span m='1470140'>In other</span> <span m='1470370'>words</span>
+  <span m='1470580'>let</span> <span m='1470970'>x1</span> <span m='1471160'>approach</span>
+  <span m='1471530'>1,</span> <span m='1472040'>x2</span> <span m='1472180'>approach</span>
+  <span m='1472650'>3,</span> <span m='1473200'>in</span> <span m='1473370'>that</span>
+  <span m='1473600'>case</span> <span m='1473880'>you're</span> <span m='1474080'>allowing</span>
+  <span m='1474640'>what?</span> <span m='1475030'>Four</span> <span m='1475440'>separate</span>
+  <span m='1476740'>one</span> <span m='1477070'>dimensional</span> <span m='1478260'>limits</span>
+  <span m='1478720'>to</span> <span m='1478820'>be</span> <span m='1478960'>taking</span>
+  <span m='1479340'>place</span> <span m='1479680'>here.</span> </p><p><span m='1480650'>But</span>
+  <span m='1481370'>the</span> <span m='1481580'>insight</span> <span m='1482280'>that</span>
+  <span m='1482430'>modern</span> <span m='1482850'>math</span> <span m='1483200'>gave</span>
+  <span m='1483540'>us</span> <span m='1483880'>was</span> <span m='1484250'>that</span>
+  <span m='1484370'>we</span> <span m='1484480'>can</span> <span m='1484630'>now</span>
+  <span m='1484850'>go</span> <span m='1485040'>back</span> <span m='1485430'>to</span>
+  <span m='1485510'>our</span> <span m='1485740'>traditional</span> <span m='1486290'>definition</span>
+  <span m='1486860'>of</span> <span m='1486960'>limit.</span> <span m='1487220'>Remember</span>
+  <span m='1487610'>what</span> <span m='1488050'>was</span> <span m='1488240'>our</span>
+  <span m='1488450'>old</span> <span m='1488750'>structural</span> <span m='1489320'>definition</span>
+  <span m='1489950'>of</span> <span m='1490060'>limit?</span> <span m='1490570'>Way</span>
+  <span m='1490900'>back</span> <span m='1491490'>from</span> <span m='1491650'>the</span>
+  <span m='1491740'>first</span> <span m='1492060'>time</span> <span m='1492340'>we</span>
+  <span m='1492450'>had</span> <span m='1492860'>it.</span> <span m='1493140'>The</span>
+  <span m='1493330'>limit</span> <span m='1493630'>of</span> <span m='1493770'>f(x)</span>
+  <span m='1494450'>as</span> <span m='1494600'>x</span> <span m='1494810'>approaches</span>
+  <span m='1495360'>a</span> <span m='1495530'>equals</span> <span m='1495890'>L</span>
+  <span m='1496510'>means,</span> <span m='1496850'>given</span> <span m='1497110'>epsilon</span>
+  <span m='1497630'>greater</span> <span m='1498090'>than</span> <span m='1498300'>0,</span>
+  <span m='1498910'>we</span> <span m='1499250'>can</span> <span m='1499450'>find</span>
+  <span m='1499870'>delta</span> <span m='1500140'>greater</span> <span m='1500410'>than</span>
+  <span m='1500600'>zero,</span> <span m='1501320'>such</span> <span m='1501630'>that</span>
+  <span m='1501780'>whenever</span> <span m='1502190'>the</span> <span m='1502380'>absolute</span>
+  <span m='1502840'>value</span> <span m='1503250'>of</span> <span m='1503380'>x</span>
+  <span m='1503590'>-</span> <span m='1504010'>a</span> <span m='1504680'>is</span>
+  <span m='1504930'>greater</span> <span m='1505210'>than</span> <span m='1505380'>0</span>
+  <span m='1505680'>but</span> <span m='1505850'>less</span> <span m='1506090'>than</span>
+  <span m='1506220'>delta,</span> <span m='1506960'>the</span> <span m='1507110'>absolute</span>
+  <span m='1507510'>value</span> <span m='1507870'>of</span> <span m='1507990'>f(x)</span>
+  <span m='1508480'>-</span> <span m='1508860'>L</span> <span m='1509270'>is</span>
+  <span m='1509460'>less</span> <span m='1509660'>than</span> <span m='1509780'>epsilon</span>
+  </p><p><span m='1510670'>Now</span> <span m='1511150'>here's</span> <span m='1511360'>what</span>
+  <span m='1511490'>the</span> <span m='1511590'>new</span> <span m='1512070'>math</span>
+  <span m='1512460'>said.</span> <span m='1512740'>The</span> <span m='1513190'>modern</span>
+  <span m='1513620'>approach</span> <span m='1514000'>said</span> <span m='1514170'>look,</span>
+  <span m='1514650'>let's</span> <span m='1514920'>just</span> <span m='1515130'>take</span>
+  <span m='1515350'>our</span> <span m='1515510'>old</span> <span m='1515690'>structural</span>
+  <span m='1516220'>definition--</span> <span m='1516760'>the</span> <span m='1516840'>same</span>
+  <span m='1517090'>as</span> <span m='1517180'>before--</span> <span m='1517860'>and</span>
+  <span m='1518110'>vectorize</span> <span m='1518730'>everything.</span> <span m='1519580'>Notice</span>
+  <span m='1520020'>in</span> <span m='1520170'>this</span> <span m='1520390'>situation</span>
+  <span m='1520960'>that</span> <span m='1521070'>we're</span> <span m='1521170'>dealing</span>
+  <span m='1521550'>with</span> <span m='1522010'>the</span> <span m='1522200'>input</span>
+  <span m='1522680'>is</span> <span m='1522810'>where</span> <span m='1522950'>we</span>
+  <span m='1523070'>have</span> <span m='1523270'>the</span> <span m='1523350'>several</span>
+  <span m='1523730'>variables.</span> <span m='1524670'>The</span> <span m='1524870'>input</span>
+  <span m='1525250'>is</span> <span m='1525360'>the</span> <span m='1525510'>n-tuple,</span>
+  <span m='1526350'>the</span> <span m='1526510'>vector</span> <span m='1527560'>OK?</span>
+  <span m='1528230'>And</span> <span m='1528440'>the</span> <span m='1528580'>output</span>
+  <span m='1529160'>is</span> <span m='1529360'>the</span> <span m='1529450'>scalar.</span>
+  </p><p><span m='1530340'>So</span> <span m='1530640'>f</span> <span m='1531560'>is</span>
+  <span m='1531730'>a</span> <span m='1531790'>scalar,</span> <span m='1532380'>L</span>
+  <span m='1532580'>is</span> <span m='1532650'>a</span> <span m='1532720'>scalar.</span>
+  <span m='1533100'>But</span> <span m='1533600'>x</span> <span m='1533880'>and</span>
+  <span m='1534040'>a</span> <span m='1534630'>are</span> <span m='1534940'>vectors,</span>
+  <span m='1535760'>so</span> <span m='1536010'>every</span> <span m='1536320'>place</span>
+  <span m='1536670'>I</span> <span m='1536790'>see</span> <span m='1537060'>an</span>
+  <span m='1537170'>x</span> <span m='1537440'>and</span> <span m='1537520'>an</span>
+  <span m='1537670'>a,</span> <span m='1538496'>I</span> <span m='1538910'>have</span>
+  <span m='1539180'>to</span> <span m='1539660'>put</span> <span m='1539810'>the</span>
+  <span m='1539890'>bar</span> <span m='1540300'>underneath.</span> <span m='1541340'>And</span>
+  <span m='1541500'>now</span> <span m='1541660'>I</span> <span m='1541820'>read</span>
+  <span m='1542090'>this</span> <span m='1542290'>definition,</span> <span m='1543320'>and</span>
+  <span m='1543490'>all</span> <span m='1543730'>of</span> <span m='1543830'>a</span>
+  <span m='1543890'>sudden,</span> <span m='1544380'>as</span> <span m='1544550'>so</span>
+  <span m='1544750'>often</span> <span m='1545160'>has</span> <span m='1545330'>happened</span>
+  <span m='1545630'>in</span> <span m='1545690'>our</span> <span m='1545770'>course</span>
+  <span m='1546140'>up</span> <span m='1546300'>to</span> <span m='1546400'>now,</span>
+  <span m='1546940'>I</span> <span m='1547080'>come</span> <span m='1547310'>to</span>
+  <span m='1547420'>something</span> <span m='1547730'>that</span> <span m='1547860'>I've</span>
+  <span m='1547980'>never</span> <span m='1548190'>seen</span> <span m='1548470'>before.</span>
+  <span m='1549480'>Namely,</span> <span m='1550550'>as</span> <span m='1550760'>soon</span>
+  <span m='1550980'>as</span> <span m='1551100'>I</span> <span m='1551210'>look</span>
+  <span m='1551360'>at</span> <span m='1551470'>this.</span> </p><p><span m='1553220'>This</span>
+  <span m='1553520'>made</span> <span m='1553750'>very</span> <span m='1554120'>good</span>
+  <span m='1554320'>sense</span> <span m='1555350'>when</span> <span m='1555970'>these</span>
+  <span m='1556270'>were</span> <span m='1556440'>arrows.</span> <span m='1557940'>We</span>
+  <span m='1558130'>talked</span> <span m='1558410'>about</span> <span m='1558680'>this</span>
+  <span m='1559280'>earlier</span> <span m='1559760'>in our</span> <span m='1559890'>course</span>
+  <span m='1560230'>and</span> <span m='1560310'>one of</span> <span m='1560450'>our</span>
+  <span m='1560690'>lectures.</span> <span m='1561540'>That to</span> <span m='1561710'>say</span>
+  <span m='1561940'>the</span> <span m='1562090'>two</span> <span m='1562380'>arrows</span>
+  <span m='1563170'>were</span> <span m='1563550'>near</span> <span m='1563850'>each</span>
+  <span m='1564090'>other</span> <span m='1564410'>was</span> <span m='1564840'>to</span>
+  <span m='1564930'>say</span> <span m='1565160'>that</span> <span m='1565270'>their</span>
+  <span m='1565420'>difference</span> <span m='1565830'>was</span> <span m='1566000'>small,</span>
+  <span m='1566790'>and</span> <span m='1566990'>that</span> <span m='1567320'>in</span>
+  <span m='1567450'>turn</span> <span m='1567590'>said</span> <span m='1567820'>if</span>
+  <span m='1567930'>the</span> <span m='1568100'>arrows</span> <span m='1568520'>were
+  placed</span> <span m='1569000'>tail</span> <span m='1569290'>to</span> <span m='1569410'>tail,</span>
+  <span m='1569990'>we</span> <span m='1570280'>could</span> <span m='1570470'>make</span>
+  <span m='1570680'>the</span> <span m='1570780'>distance</span> <span m='1571250'>between</span>
+  <span m='1571670'>their</span> <span m='1571830'>heads</span> <span m='1572480'>as</span>
+  <span m='1572670'>small</span> <span m='1573070'>as</span> <span m='1573180'>we</span>
+  <span m='1573310'>wish.</span> </p><p><span m='1574130'>Now</span> <span m='1574430'>the</span>
+  <span m='1574550'>price</span> <span m='1574880'>that</span> <span m='1575020'>we</span>
+  <span m='1575140'>have</span> <span m='1575380'>to</span> <span m='1575490'>pay</span>
+  <span m='1576470'>for</span> <span m='1576540'>higher</span> <span m='1576920'>dimensions</span>
+  <span m='1577650'>is</span> <span m='1577790'>that</span> <span m='1577900'>if</span>
+  <span m='1578030'>we</span> <span m='1578190'>have</span> <span m='1578740'>more</span>
+  <span m='1579030'>dimensions</span> <span m='1579690'>than</span> <span m='1579840'>what</span>
+  <span m='1580010'>we</span> <span m='1580120'>can</span> <span m='1580270'>draw</span>
+  <span m='1580580'>arrows</span> <span m='1581090'>in,</span> <span m='1581810'>the</span>
+  <span m='1581970'>problem</span> <span m='1582460'>that</span> <span m='1582630'>we're</span>
+  <span m='1582790'>faced</span> <span m='1583240'>is</span> <span m='1583790'>that</span>
+  <span m='1583960'>we</span> <span m='1584180'>have</span> <span m='1584410'>not</span>
+  <span m='1584680'>defined</span> <span m='1585370'>what</span> <span m='1585770'>you</span>
+  <span m='1585910'>mean</span> <span m='1586200'>by</span> <span m='1586430'>the</span>
+  <span m='1586580'>magnitude</span> <span m='1587800'>of</span> <span m='1588050'>x</span>
+  <span m='1588330'>-</span> <span m='1588790'>a</span> <span m='1589320'>where</span>
+  <span m='1589740'>x</span> <span m='1590100'>and</span> <span m='1590410'>a</span>
+  <span m='1591000'>happen</span> <span m='1591380'>to</span> <span m='1591490'>be</span>
+  <span m='1592020'>n-tuples.</span> </p><p><span m='1593710'>And</span> <span m='1593950'>here</span>
+  <span m='1594210'>again,</span> <span m='1594710'>we</span> <span m='1594970'>come</span>
+  <span m='1595180'>back</span> <span m='1595480'>to</span> <span m='1595640'>our</span>
+  <span m='1595730'>structure.</span> <span m='1596480'>But</span> <span m='1596860'>now</span>
+  <span m='1597130'>for</span> <span m='1597290'>the</span> <span m='1597410'>first</span>
+  <span m='1597810'>time</span> <span m='1598430'>the</span> <span m='1598570'>structure</span>
+  <span m='1599130'>is</span> <span m='1599250'>not</span> <span m='1599510'>redundant.</span>
+  <span m='1600120'>Let</span> <span m='1600210'>me</span> <span m='1600300'>tell</span>
+  <span m='1600450'>you</span> <span m='1600600'>what I</span> <span m='1600690'>mean</span>
+  <span m='1600880'>by</span> <span m='1601050'>that.</span> </p><p><span m='1602530'>In</span>
+  <span m='1602700'>the</span> <span m='1602790'>one</span> <span m='1602980'>dimensional</span>
+  <span m='1603520'>case</span> <span m='1604120'>we</span> <span m='1604410'>define</span>
+  <span m='1604920'>the</span> <span m='1605020'>magnitude</span> <span m='1605770'>of</span>
+  <span m='1606460'>x</span> <span m='1606760'>-</span> <span m='1607210'>a</span>
+  <span m='1607830'>to</span> <span m='1607940'>be</span> <span m='1608090'>the</span>
+  <span m='1608200'>square</span> <span m='1608610'>root</span> <span m='1608790'>of</span>
+  <span m='1609180'>x1</span> <span m='1609470'>-</span> <span m='1609860'>a1^2</span>
+  <span m='1611080'>where</span> <span m='1611290'>the vector</span> <span m='1611730'>x</span>
+  <span m='1612030'>was</span> <span m='1612220'>the</span> <span m='1612310'>1-tuple</span>
+  <span m='1613150'>x1,</span> <span m='1613700'>and</span> <span m='1613870'>the</span>
+  <span m='1613940'>vector</span> <span m='1614180'>a</span> <span m='1614490'>was</span>
+  <span m='1614720'>the</span> <span m='1614860'>n-tuple</span> <span m='1616340'>a1.</span>
+  <span m='1617640'>In</span> <span m='1617790'>the</span> <span m='1617880'>two</span>
+  <span m='1618040'>dimensional</span> <span m='1618570'>case,</span> <span m='1619350'>we</span>
+  <span m='1619580'>said,</span> <span m='1619710'>OK,</span> <span m='1620470'>let's</span>
+  <span m='1620740'>define</span> <span m='1621820'>the</span> <span m='1622630'>magnitude</span>
+  <span m='1623340'>of</span> <span m='1623410'>the</span> <span m='1623500'>vector</span>
+  <span m='1623910'>x</span> <span m='1624210'>-</span> <span m='1624640'>a</span>
+  <span m='1625300'>to</span> <span m='1625420'>be</span> <span m='1625850'>(x1</span>
+  <span m='1626120'>-</span> <span m='1626670'>a1)^2</span> <span m='1627590'>+</span>
+  <span m='1628210'>(x2</span> <span m='1628360'>-</span> <span m='1628820'>a2)^2</span>
+  <span m='1629220'>.</span> </p><p><span m='1630370'>And</span> <span m='1630670'>in
+  the</span> <span m='1630750'>three</span> <span m='1630980'>dimensional</span> <span
+  m='1631500'>case,</span> <span m='1631820'>we</span> <span m='1631970'>said,</span>
+  <span m='1632260'>let's</span> <span m='1632510'>define</span> <span m='1633360'>the</span>
+  <span m='1633490'>magnitude</span> <span m='1634200'>of</span> <span m='1634490'>x-bar</span>
+  <span m='1635100'>-</span> <span m='1635480'>a-bar</span> <span m='1636460'>to</span>
+  <span m='1636560'>be</span> <span m='1636670'>the</span> <span m='1636770'>square</span>
+  <span m='1637140'>root</span> <span m='1637360'>of</span> <span m='1637950'>(x1</span>
+  <span m='1638220'>-</span> <span m='1638590'>a1)^2</span> <span m='1639740'>+</span>
+  <span m='1640280'>(x2</span> <span m='1640420'>-</span> <span m='1640820'>a2)^2</span>
+  <span m='1641840'>+</span> <span m='1642390'>(x3</span> <span m='1642550'>-</span>
+  <span m='1643070'>a3)^2.</span> <span m='1644260'>At</span> <span m='1644460'>that</span>
+  <span m='1644700'>time,</span> <span m='1645010'>I</span> <span m='1645120'>kept</span>
+  <span m='1645400'>saying,</span> <span m='1646910'>notice</span> <span m='1647370'>that</span>
+  <span m='1647580'>these</span> <span m='1647820'>recipes</span> <span m='1648550'>do</span>
+  <span m='1648690'>not</span> <span m='1648990'>depend</span> <span m='1649410'>on</span>
+  <span m='1649530'>a</span> <span m='1649580'>picture,</span> <span m='1650470'>that</span>
+  <span m='1650690'>these</span> <span m='1650970'>are</span> <span m='1651130'>numerical</span>
+  <span m='1651790'>results</span> <span m='1652620'>that</span> <span m='1652770'>we</span>
+  <span m='1652890'>can</span> <span m='1653040'>compute</span> <span m='1653470'>without</span>
+  <span m='1653770'>having</span> <span m='1654060'>to</span> <span m='1654160'>draw</span>
+  <span m='1654440'>a</span> <span m='1654480'>picture</span> <span m='1654900'>at</span>
+  <span m='1654980'>all.</span> </p><p><span m='1655550'>What</span> <span m='1655910'>happened</span>
+  <span m='1656360'>of</span> <span m='1656490'>course</span> <span m='1656780'>was</span>
+  <span m='1657500'>that</span> <span m='1657650'>in</span> <span m='1657840'>the</span>
+  <span m='1657950'>one</span> <span m='1658140'>dimensional</span> <span m='1658720'>case,</span>
+  <span m='1659460'>in</span> <span m='1659660'>the</span> <span m='1659790'>two</span>
+  <span m='1659960'>dimensional</span> <span m='1660530'>case,</span> <span m='1661220'>in</span>
+  <span m='1661400'>the</span> <span m='1661520'>three</span> <span m='1661750'>dimensional</span>
+  <span m='1662310'>case,</span> <span m='1662890'>it</span> <span m='1663040'>was</span>
+  <span m='1663470'>easier</span> <span m='1663970'>to</span> <span m='1664080'>visualize</span>
+  <span m='1664760'>the</span> <span m='1664840'>picture.</span> <span m='1666360'>Now</span>
+  <span m='1667050'>here's</span> <span m='1667520'>where</span> <span m='1667710'>the</span>
+  <span m='1667850'>real</span> <span m='1668130'>kicker</span> <span m='1668450'>comes</span>
+  <span m='1668820'>in--</span> <span m='1669240'>and</span> <span m='1669430'>this</span>
+  <span m='1669560'>is</span> <span m='1669690'>the</span> <span m='1669790'>real</span>
+  <span m='1670030'>crucial</span> <span m='1670380'>point--</span> <span m='1671150'>structurally,</span>
+  <span m='1672270'>can't</span> <span m='1672590'>you</span> <span m='1672710'>see</span>
+  <span m='1673170'>what's</span> <span m='1673410'>happening</span> <span m='1673860'>over</span>
+  <span m='1674070'>here?</span> <span m='1674780'>Can't</span> <span m='1675050'>you</span>
+  <span m='1675240'>see</span> <span m='1675460'>how</span> <span m='1675640'>I</span>
+  <span m='1675740'>can</span> <span m='1675940'>now</span> <span m='1676170'>define</span>
+  <span m='1677110'>the</span> <span m='1677310'>absolute</span> <span m='1677850'>value</span>
+  <span m='1678360'>of</span> <span m='1678480'>the</span> <span m='1678560'>vector</span>
+  <span m='1678880'>x-bar</span> <span m='1679500'>-</span> <span m='1679990'>a-bar?</span>
+  <span m='1681940'>Even</span> <span m='1682480'>if</span> <span m='1682770'>n</span>
+  <span m='1683010'>is</span> <span m='1683290'>greater</span> <span m='1683640'>than</span>
+  <span m='1683850'>3</span> <span m='1684850'>in</span> <span m='1685030'>such</span>
+  <span m='1685360'>a</span> <span m='1685440'>way</span> <span m='1685710'>that</span>
+  <span m='1685910'>the</span> <span m='1686010'>definition</span> <span m='1686660'>will</span>
+  <span m='1686820'>make</span> <span m='1687110'>sense</span> <span m='1687770'>and</span>
+  <span m='1688030'>still</span> <span m='1688320'>mimic</span> <span m='1688750'>everything</span>
+  <span m='1689240'>that</span> <span m='1689380'>we're</span> <span m='1689500'>doing?</span>
+  </p><p><span m='1691620'>I</span> <span m='1691750'>hope</span> <span m='1692380'>you</span>
+  <span m='1693030'>are</span> <span m='1693270'>a</span> <span m='1693330'>step</span>
+  <span m='1693570'>ahead</span> <span m='1693820'>of</span> <span m='1693920'>me</span>
+  <span m='1694100'>on</span> <span m='1694260'>this</span> <span m='1694830'>except</span>
+  <span m='1695230'>for</span> <span m='1695340'>some new</span> <span m='1695760'>notation</span>
+  <span m='1696450'>I</span> <span m='1696540'>introduced</span> <span m='1697040'>here.</span>
+  <span m='1697730'>It</span> <span m='1697890'>turns</span> <span m='1698190'>out</span>
+  <span m='1698380'>that</span> <span m='1698530'>in</span> <span m='1698670'>the</span>
+  <span m='1699080'>modern</span> <span m='1699560'>math</span> <span m='1699890'>book,</span>
+  <span m='1700290'>one</span> <span m='1701050'>distinguishes</span> <span m='1702090'>between</span>
+  <span m='1703080'>the</span> <span m='1703290'>absolute</span> <span m='1703860'>value</span>
+  <span m='1704960'>of</span> <span m='1705140'>a</span> <span m='1705270'>number,</span>
+  <span m='1706050'>and</span> <span m='1706260'>the</span> <span m='1706330'>magnitude</span>
+  <span m='1707090'>of</span> <span m='1707310'>a</span> <span m='1707400'>vector,</span>
+  <span m='1708290'>and</span> <span m='1708490'>it is</span> <span m='1708790'>frequently</span>
+  <span m='1709340'>traditional</span> <span m='1710410'>to</span> <span m='1710780'>introduce</span>
+  <span m='1712110'>a</span> <span m='1712280'>double</span> <span m='1712980'>bar</span>
+  <span m='1714140'>on</span> <span m='1714320'>each</span> <span m='1714530'>side</span>
+  <span m='1715270'>to</span> <span m='1715420'>represent</span> <span m='1715970'>the</span>
+  <span m='1716060'>magnitude</span> <span m='1718380'>of</span> <span m='1718520'>the</span>
+  <span m='1718620'>difference</span> <span m='1719010'>between</span> <span m='1719390'>two</span>
+  <span m='1719540'>vectors,</span> </p><p><span m='1720140'>which</span> <span m='1720540'>I</span>
+  <span m='1720650'>claim</span> <span m='1721370'>behaves</span> <span m='1721880'>like</span>
+  <span m='1722060'>a</span> <span m='1722140'>distance.</span> <span m='1722700'>Let</span>
+  <span m='1722850'>me</span> <span m='1723360'>show</span> <span m='1723510'>you</span>
+  <span m='1723610'>what</span> <span m='1723710'>I</span> <span m='1723780'>mean</span>
+  <span m='1723970'>by</span> <span m='1724080'>that.</span> <span m='1724510'>Let</span>
+  <span m='1724700'>me</span> <span m='1724810'>define</span> <span m='1725300'>the</span>
+  <span m='1725390'>magnitude</span> <span m='1726570'>of</span> <span m='1726840'>the</span>
+  <span m='1727070'>n-tuple</span> <span m='1727850'>x-bar</span> <span m='1728820'>minus</span>
+  <span m='1729300'>the n-tuple</span> <span m='1730380'>a-bar,</span> <span m='1731530'>written</span>
+  <span m='1731820'>this</span> <span m='1732040'>way,</span> <span m='1732870'>to</span>
+  <span m='1733030'>be</span> <span m='1733400'>the</span> <span m='1733530'>positive</span>
+  <span m='1734080'>square</span> <span m='1734430'>root</span> <span m='1735010'>of</span>
+  <span m='1735500'>(x1</span> <span m='1735770'>-</span> <span m='1736150'>a1)^2</span>
+  <span m='1737110'>plus</span> <span m='1737620'>et</span> <span m='1738000'>cetera</span>
+  <span m='1738660'>plus</span> <span m='1739820'>(xn</span> <span m='1740430'>-</span>
+  <span m='1741080'>an)^2.</span> </p><p><span m='1742710'>The</span> <span m='1742840'>thing</span>
+  <span m='1743100'>that</span> <span m='1743210'>I</span> <span m='1743240'>would</span>
+  <span m='1743370'>like</span> <span m='1743550'>you</span> <span m='1743620'>to</span>
+  <span m='1743720'>notice</span> <span m='1744080'>here</span> <span m='1744720'>is</span>
+  <span m='1744920'>that since</span> <span m='1745340'>each</span> <span m='1745570'>of</span>
+  <span m='1745690'>these</span> <span m='1745950'>numbers</span> <span m='1747010'>are</span>
+  <span m='1747160'>non-negative,</span> <span m='1748850'>see they're</span> <span
+  m='1748950'>squares</span> <span m='1749460'>of</span> <span m='1749680'>real</span>
+  <span m='1749910'>numbers,</span> <span m='1750850'>the</span> <span m='1751060'>only</span>
+  <span m='1751360'>way</span> <span m='1751560'>this</span> <span m='1751780'>can</span>
+  <span m='1751900'>be</span> <span m='1752050'>0--</span> <span m='1753360'>well</span>
+  <span m='1753550'>the</span> <span m='1753680'>only</span> <span m='1753870'>way</span>
+  <span m='1754070'>that</span> <span m='1754180'>the</span> <span m='1754300'>sum</span>
+  <span m='1754600'>of</span> <span m='1754720'>squares</span> <span m='1755480'>of</span>
+  <span m='1755680'>non-negative</span> <span m='1756440'>numbers</span> <span m='1756840'>can</span>
+  <span m='1756990'>be</span> <span m='1757120'>0</span> <span m='1757860'>is</span>
+  <span m='1758080'>for</span> <span m='1758160'>each</span> <span m='1758470'>of</span>
+  <span m='1758540'>the</span> <span m='1758670'>numbers</span> <span m='1758990'>to</span>
+  <span m='1759090'>be</span> <span m='1759220'>0.</span> <span m='1760080'>Consequently,</span>
+  <span m='1760860'>the</span> <span m='1761040'>only</span> <span m='1761310'>way</span>
+  <span m='1761510'>the</span> <span m='1761650'>magnitude</span> <span m='1762310'>of</span>
+  <span m='1762420'>x-bar</span> <span m='1762960'>-</span> <span m='1763330'>a-bar</span>
+  <span m='1763860'>can</span> <span m='1763990'>equal</span> <span m='1764240'>0</span>
+  <span m='1765080'>is</span> <span m='1765270'>if</span> <span m='1765660'>x1</span>
+  <span m='1765900'>equals</span> <span m='1766260'>a1,</span> <span m='1767270'>x2</span>
+  <span m='1767480'>equals</span> <span m='1767810'>a2,</span> <span m='1768050'>et
+  cetera.</span> <span m='1768710'>And</span> <span m='1768810'>xn</span> <span m='1769560'>equals</span>
+  <span m='1770030'>an.</span> </p><p><span m='1771060'>In</span> <span m='1771270'>this</span>
+  <span m='1771510'>vein,</span> <span m='1772270'>notice</span> <span m='1772740'>that</span>
+  <span m='1772920'>the</span> <span m='1773040'>geometric</span> <span m='1773680'>phrase</span>
+  <span m='1774550'>x-bar</span> <span m='1775900'>near</span> <span m='1776450'>a-bar</span>
+  <span m='1777430'>still</span> <span m='1777840'>makes</span> <span m='1778970'>sense.</span>
+  <span m='1779870'>It</span> <span m='1780040'>doesn't</span> <span m='1780400'>make</span>
+  <span m='1780630'>sense</span> <span m='1780990'>pictorially,</span> <span m='1781760'>because</span>
+  <span m='1782120'>we</span> <span m='1782260'>can't</span> <span m='1782600'>draw</span>
+  <span m='1782880'>the</span> <span m='1783080'>arrows</span> <span m='1783560'>if</span>
+  <span m='1783670'>n</span> <span m='1783810'>is</span> <span m='1783960'>greater</span>
+  <span m='1784190'>than</span> <span m='1784390'>3.</span> <span m='1785090'>But</span>
+  <span m='1785350'>notice</span> <span m='1785620'>that</span> <span m='1785710'>what</span>
+  <span m='1785850'>we're</span> <span m='1785950'>saying</span> <span m='1786330'>is</span>
+  <span m='1786850'>that</span> <span m='1787170'>for x</span> <span m='1787450'>to</span>
+  <span m='1787560'>be</span> <span m='1787720'>near</span> <span m='1787950'>a,</span>
+  <span m='1788580'>all</span> <span m='1789000'>we're</span> <span m='1789130'>saying</span>
+  <span m='1789630'>is</span> <span m='1789810'>that</span> <span m='1789950'>the</span>
+  <span m='1790050'>magnitude</span> <span m='1791830'>defined</span> <span m='1792290'>this</span>
+  <span m='1792480'>way--</span> <span m='1793140'>the</span> <span m='1793260'>magnitude</span>
+  <span m='1793960'>of</span> <span m='1794060'>x-bar</span> <span m='1794510'>minus</span>
+  <span m='1794920'>a-bar</span> <span m='1795750'>is</span> <span m='1795910'>small.</span>
+  </p><p><span m='1797420'>When</span> <span m='1797770'>you're</span> <span m='1797930'>adding</span>
+  <span m='1798310'>up</span> <span m='1798530'>positive</span> <span m='1799130'>squares,</span>
+  <span m='1800010'>the</span> <span m='1800240'>only</span> <span m='1800520'>way</span>
+  <span m='1800730'>the</span> <span m='1800890'>sum</span> <span m='1801210'>can</span>
+  <span m='1801400'>be</span> <span m='1801540'>small</span> <span m='1802320'>is</span>
+  <span m='1802490'>if</span> <span m='1802630'>each</span> <span m='1802880'>of</span>
+  <span m='1802960'>the</span> <span m='1803080'>factors</span> <span m='1803700'>are</span>
+  <span m='1803790'>small.</span> <span m='1804640'>But</span> <span m='1804900'>notice</span>
+  <span m='1805200'>what</span> <span m='1805360'>these</span> <span m='1805600'>factors</span>
+  <span m='1806140'>are,</span> <span m='1806350'>except</span> <span m='1806650'>for</span>
+  <span m='1806740'>the</span> <span m='1806950'>square,</span> <span m='1807580'>it's</span>
+  <span m='1808130'>the</span> <span m='1808260'>difference</span> <span m='1808690'>between</span>
+  <span m='1809290'>x1</span> <span m='1809590'>and</span> <span m='1809740'>a1.</span>
+  <span m='1810670'>x2</span> <span m='1810860'>an</span> <span m='1810960'>a2,</span>
+  <span m='1811440'>et</span> <span m='1811660'>cetera,</span> <span m='1811870'>xn</span>
+  <span m='1812180'>and</span> <span m='1812380'>an.</span> </p><p><span m='1813730'>In</span>
+  <span m='1813860'>other</span> <span m='1814030'>words,</span> <span m='1814530'>to</span>
+  <span m='1814640'>say</span> <span m='1814910'>that</span> <span m='1815060'>x-bar</span>
+  <span m='1815690'>is</span> <span m='1815830'>near</span> <span m='1816080'>a-bar</span>
+  <span m='1816930'>means</span> <span m='1817320'>that</span> <span m='1817770'>x1</span>
+  <span m='1818020'>is</span> <span m='1818170'>near</span> <span m='1818410'>a1,</span>
+  <span m='1819540'>x2</span> <span m='1819780'>is</span> <span m='1819920'>near</span>
+  <span m='1820260'>a2,</span> <span m='1820660'>et</span> <span m='1820950'>cetera,</span>
+  <span m='1821400'>and</span> <span m='1821620'>xn</span> <span m='1822010'>is</span>
+  <span m='1822180'>near</span> <span m='1822360'>an,</span> <span m='1822980'>which</span>
+  <span m='1823420'>is</span> <span m='1823520'>exactly</span> <span m='1824170'>the</span>
+  <span m='1824290'>traditional</span> <span m='1824830'>approach.</span> <span m='1825730'>And</span>
+  <span m='1825890'>in</span> <span m='1826040'>fact,</span> <span m='1826800'>except</span>
+  <span m='1827290'>for</span> <span m='1827380'>the</span> <span m='1827500'>fact</span>
+  <span m='1827840'>that</span> <span m='1827960'>we</span> <span m='1828090'>can</span>
+  <span m='1828250'>capitalize</span> <span m='1828960'>on</span> <span m='1829130'>structure,</span>
+  <span m='1830180'>notice</span> <span m='1830680'>that</span> <span m='1830850'>once</span>
+  <span m='1831180'>we</span> <span m='1831340'>define</span> <span m='1832410'>the</span>
+  <span m='1832650'>magnitude</span> <span m='1833560'>of</span> <span m='1833700'>the</span>
+  <span m='1833800'>difference</span> <span m='1834270'>between</span> <span m='1834720'>two</span>
+  <span m='1834840'>n-tuples--</span> <span m='1835870'>do you</span> <span m='1836000'>notice</span>
+  <span m='1836290'>that</span> <span m='1836480'>by</span> <span m='1836620'>the</span>
+  <span m='1836720'>way?</span> <span m='1837170'>The</span> <span m='1837320'>magnitude</span>
+  <span m='1838090'>of</span> <span m='1838180'>the</span> <span m='1838280'>difference</span>
+  <span m='1838690'>of</span> <span m='1838820'>two</span> <span m='1839030'>n-tuples</span>
+  <span m='1839700'>is</span> <span m='1839960'>a</span> <span m='1840530'>number.</span>
+  <span m='1841490'>Notice</span> <span m='1841980'>now</span> <span m='1842590'>if</span>
+  <span m='1842840'>we</span> <span m='1842980'>replace</span> <span m='1843860'>this</span>
+  <span m='1844110'>fancy</span> <span m='1844590'>phrase--</span> <span m='1845240'>which</span>
+  <span m='1845640'>we</span> <span m='1845790'>didn't</span> <span m='1846100'>know</span>
+  <span m='1846290'>the</span> <span m='1846400'>meaning</span> <span m='1846800'>of</span>
+  <span m='1847000'>before</span> <span m='1847830'>but</span> <span m='1847970'>which</span>
+  <span m='1848140'>we</span> <span m='1848240'>now</span> <span m='1848450'>know--</span>
+  <span m='1849490'>by</span> <span m='1850720'>it's</span> <span m='1850970'>new</span>
+  <span m='1851140'>definition,</span> <span m='1852340'>we</span> <span m='1852840'>obtain</span>
+  <span m='1853840'>the</span> <span m='1853990'>traditional</span> <span m='1854650'>definition</span>
+  <span m='1855510'>of</span> <span m='1855690'>limit.</span> </p><p><span m='1856420'>Namely</span>
+  <span m='1857160'>the</span> <span m='1857290'>limit</span> <span m='1857810'>of</span>
+  <span m='1858040'>f(x1...xn)</span> <span m='1860040'>as</span> <span m='1860590'>x1</span>
+  <span m='1860810'>approaches</span> <span m='1861340'>a1</span> <span m='1861840'>et
+  cetera,</span> <span m='1862310'>and</span> <span m='1862400'>xn</span> <span m='1862600'>approaches</span>
+  <span m='1863380'>an</span> <span m='1863630'>equals</span> <span m='1864040'>L</span>
+  <span m='1864720'>means</span> <span m='1865610'>that</span> <span m='1865850'>given</span>
+  <span m='1866140'>epsilon</span> <span m='1866750'>greater</span> <span m='1866990'>than</span>
+  <span m='1867160'>0,</span> <span m='1867830'>we</span> <span m='1868190'>can</span>
+  <span m='1868400'>find</span> <span m='1868800'>delta</span> <span m='1869140'>greater</span>
+  <span m='1869430'>than</span> <span m='1869620'>0</span> <span m='1870430'>such</span>
+  <span m='1870930'>that</span> <span m='1871350'>whenever</span> <span m='1871970'>the</span>
+  <span m='1872110'>square</span> <span m='1872540'>root</span> <span m='1872760'>of</span>
+  <span m='1873220'>(x1</span> <span m='1873540'>-</span> <span m='1873900'>a1)^2</span>
+  <span m='1874730'>plus</span> <span m='1875030'>et</span> <span m='1875280'>cetera</span>
+  <span m='1875540'>(xn</span> <span m='1876030'>-</span> <span m='1876420'>an)^2</span>
+  <span m='1877520'>is</span> <span m='1877760'>less</span> <span m='1878060'>than</span>
+  <span m='1878250'>delta</span> <span m='1878630'>but</span> <span m='1878840'>greater</span>
+  <span m='1879100'>than</span> <span m='1879290'>0,</span> <span m='1880170'>then</span>
+  <span m='1880380'>the</span> <span m='1880500'>magnitude--</span> <span m='1881200'>you</span>
+  <span m='1881290'>see</span> <span m='1881460'>these</span> <span m='1881630'>numbers</span>
+  <span m='1882070'>here--</span> <span m='1882540'>the</span> <span m='1882660'>magnitude</span>
+  <span m='1883330'>of</span> <span m='1883450'>f(x1...xn)</span> <span m='1885260'>-</span>
+  <span m='1885700'>L</span> <span m='1886260'>is</span> <span m='1886700'>less</span>
+  <span m='1886980'>than</span> <span m='1887130'>epsilon.</span> </p><p><span m='1888010'>In</span>
+  <span m='1888180'>other</span> <span m='1888340'>words,</span> <span m='1888830'>this</span>
+  <span m='1889110'>definition</span> <span m='1889690'>here</span> <span m='1890300'>happens</span>
+  <span m='1890750'>to</span> <span m='1890850'>be</span> <span m='1891420'>the</span>
+  <span m='1891860'>traditional</span> <span m='1892840'>definition.</span> <span
+  m='1893940'>OK?</span> <span m='1894670'>But</span> <span m='1894910'>the</span>
+  <span m='1895020'>point</span> <span m='1895450'>is</span> <span m='1896400'>that</span>
+  <span m='1896560'>the</span> <span m='1896670'>traditional</span> <span m='1897260'>definition</span>
+  <span m='1898340'>has</span> <span m='1898600'>exactly</span> <span m='1899190'>the</span>
+  <span m='1899290'>same</span> <span m='1899600'>structure</span> <span m='1900400'>as</span>
+  <span m='1900650'>the</span> <span m='1900740'>modern</span> <span m='1901220'>definition.</span>
+  <span m='1902330'>And</span> <span m='1902470'>as</span> <span m='1902690'>a</span>
+  <span m='1902760'>result--</span> <span m='1903210'>to</span> <span m='1903290'>make</span>
+  <span m='1903520'>fun</span> <span m='1903780'>of</span> <span m='1903880'>the</span>
+  <span m='1903970'>traditional</span> <span m='1904460'>math</span> <span m='1904820'>because</span>
+  <span m='1905160'>it's</span> <span m='1905310'>not</span> <span m='1905470'>as</span>
+  <span m='1905610'>pretty</span> <span m='1905930'>as</span> <span m='1906030'>the</span>
+  <span m='1906120'>modern</span> <span m='1906480'>math--</span> <span m='1907230'>is</span>
+  <span m='1907420'>the</span> <span m='1907530'>wrong</span> <span m='1907820'>thing</span>
+  <span m='1908050'>to</span> <span m='1908160'>say.</span> <span m='1909070'>It's
+  like</span> <span m='1909160'>the fellow</span> <span m='1909830'>who</span> <span
+  m='1910020'>once</span> <span m='1910330'>asked</span> <span m='1910600'>me</span>
+  <span m='1910770'>at a</span> <span m='1910860'>PTA</span> <span m='1911340'>meeting</span>
+  <span m='1911890'>how</span> <span m='1912040'>much</span> <span m='1912300'>is</span>
+  <span m='1912430'>8</span> <span m='1912650'>+</span> <span m='1912950'>7</span>
+  <span m='1913290'>in</span> <span m='1913490'>the new</span> <span m='1913600'>mathematics?</span>
+  <span m='1914680'>That</span> <span m='1915000'>part</span> <span m='1915210'>hasn't</span>
+  <span m='1915660'>changed.</span> </p><p><span m='1916550'>The</span> <span m='1916700'>beauty</span>
+  <span m='1917160'>of</span> <span m='1917250'>using</span> <span m='1917650'>the</span>
+  <span m='1917810'>n-tuple</span> <span m='1918400'>notation</span> <span m='1919380'>was</span>
+  <span m='1919790'>that</span> <span m='1919930'>it</span> <span m='1920080'>allowed</span>
+  <span m='1920580'>us</span> <span m='1921460'>to</span> <span m='1921660'>use</span>
+  <span m='1922080'>the</span> <span m='1922220'>previous</span> <span m='1922800'>structure</span>
+  <span m='1923370'>of</span> <span m='1923470'>limits.</span> <span m='1924180'>So
+  that</span> <span m='1924490'>we</span> <span m='1924620'>can</span> <span m='1924790'>get</span>
+  <span m='1924940'>all</span> <span m='1925240'>of</span> <span m='1925390'>our</span>
+  <span m='1925640'>theorems,</span> <span m='1926110'>all</span> <span m='1926460'>of
+  our</span> <span m='1926840'>formulas</span> <span m='1927350'>and</span> <span
+  m='1927460'>what</span> <span m='1927640'>have</span> <span m='1927920'>you,</span>
+  <span m='1928470'>to</span> <span m='1928620'>go</span> <span m='1928840'>through</span>
+  <span m='1929180'>word</span> <span m='1929580'>for</span> <span m='1929790'>word,</span>
+  <span m='1930470'>even</span> <span m='1930790'>though</span> <span m='1931050'>the</span>
+  <span m='1931190'>higher</span> <span m='1931550'>the</span> <span m='1931700'>dimension,</span>
+  <span m='1932600'>the</span> <span m='1932730'>more</span> <span m='1933990'>complex</span>
+  <span m='1934640'>our</span> <span m='1934730'>computations</span> <span m='1935155'>are.</span>
+  <span m='1935950'>But</span> <span m='1936240'>structurally,</span> <span m='1937400'>It</span>
+  <span m='1937860'>essentially</span> <span m='1938430'>boiled</span> <span m='1938760'>down</span>
+  <span m='1939110'>to,</span> <span m='1939600'>after</span> <span m='1940010'>you've</span>
+  <span m='1940240'>seen</span> <span m='1940570'>one</span> <span m='1940830'>dimensional</span>
+  <span m='1941360'>space</span> <span m='1941990'>you've</span> <span m='1942240'>seen</span>
+  <span m='1942480'>them</span> <span m='1942650'>all.</span> </p><p><span m='1943160'>That</span>
+  <span m='1943440'>was</span> <span m='1943630'>the</span> <span m='1943750'>big</span>
+  <span m='1944010'>innovation</span> <span m='1944810'>with</span> <span m='1945160'>the</span>
+  <span m='1945270'>modern</span> <span m='1945660'>approach</span> <span m='1946100'>to</span>
+  <span m='1946200'>n-dimensional</span> <span m='1946920'>vector</span> <span m='1947240'>spaces.</span>
+  <span m='1948100'>And</span> <span m='1948300'>to</span> <span m='1948360'>help</span>
+  <span m='1948600'>put</span> <span m='1948760'>this</span> <span m='1948970'>in</span>
+  <span m='1949100'>proper</span> <span m='1949430'>perspective,</span> <span m='1950540'>next</span>
+  <span m='1950910'>time</span> <span m='1951280'>I</span> <span m='1951390'>shall</span>
+  <span m='1951950'>introduce</span> <span m='1953180'>the</span> <span m='1953420'>calculus</span>
+  <span m='1954100'>of</span> <span m='1954200'>several</span> <span m='1954900'>real</span>
+  <span m='1955180'>variables</span> <span m='1956080'>in</span> <span m='1956420'>terms</span>
+  <span m='1956840'>of</span> <span m='1957130'>the</span> <span m='1957690'>more</span>
+  <span m='1958000'>traditional</span> <span m='1958690'>approach.</span> <span m='1959430'>But</span>
+  <span m='1959630'>again,</span> <span m='1960150'>until</span> <span m='1960880'>next</span>
+  <span m='1961210'>time,</span> <span m='1961680'>good</span> <span m='1961870'>bye.</span>
+  </p><p><span m='1964220'>Funding</span> <span m='1964660'>for</span> <span m='1964780'>the</span>
+  <span m='1964880'>publication</span> <span m='1965570'>of</span> <span m='1965640'>this</span>
+  <span m='1965870'>video</span> <span m='1966590'>was</span> <span m='1966750'>provided</span>
+  <span m='1967170'>by</span> <span m='1967320'>the</span> <span m='1967755'>Gabriella
+  and Paul Rosenbaum</span> <span m='1969350'>foundation.</span> <span m='1971470'>Help</span>
+  <span m='1971740'>OCW</span> <span m='1972490'>continue</span> <span m='1973040'>to</span>
+  <span m='1973160'>provide</span> <span m='1973590'>free</span> <span m='1973940'>and</span>
+  <span m='1974120'>open</span> <span m='1974390'>access</span> <span m='1975020'>to</span>
+  <span m='1975190'>MIT</span> <span m='1975640'>courses</span> <span m='1976730'>by</span>
+  <span m='1976850'>making</span> <span m='1977190'>a</span> <span m='1977240'>donation</span>
+  <span m='1978120'>at</span> <span m='1981750'>MIT</span> <span m='1981800'>ocw.mit.edu/donate.</span>
+  </p>
+type: course
+uid: 084b1200021cc9bb90f4a2ebd7e09f47
+
+---
+None

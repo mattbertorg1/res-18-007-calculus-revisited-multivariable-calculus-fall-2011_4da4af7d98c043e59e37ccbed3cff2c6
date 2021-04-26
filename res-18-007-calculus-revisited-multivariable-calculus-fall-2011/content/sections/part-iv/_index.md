@@ -1,0 +1,16 @@
+---
+course_id: res-18-007-calculus-revisited-multivariable-calculus-fall-2011
+is_media_gallery: true
+layout: course_section
+menu:
+  leftnav:
+    identifier: 267e4f75a935cc96180a0ef9ef4ae689
+    name: 'Part IV: Matrix Algebra'
+    weight: 40
+title: 'Part IV: Matrix Algebra'
+type: course
+uid: 267e4f75a935cc96180a0ef9ef4ae689
+
+---
+
+This part of the course extends the concept of inverse functions to the case where y = f(x) with y = (y1, y2, ..., yn) and x = (x1, x2, ..., xn). In more user-friendly terms this part asks us to determine when and how the system of equations that expresses y1, y2, ... and yn as functions of x1, x2, and xn can be "inverted" to express x1, x2, and xn as functions of y1, y2, ... and yn . This motivates the study of matrix algebra since the process of inverting an n x n square matrix is used to show how we decide whether a function f(x1, x2, ..., xn) has an inverse and how we find the inverse function if it exists.{{< video-gallery-item href="/sections/part-iv/lecture-1-linearity-revisited" section="Part IV: Matrix Algebra" title="Lecture 1: Linearity Revisited" description="Video Description: Herb Gross considers linearity in spaces of dimension greater than 2, including a discussion of local linearity. Instructor/speaker: Prof. Herbert Gross" thumbnail="https://img.youtube.com/vi/MfN1lqArwAg/default.jpg" >}} {{< video-gallery-item href="/sections/part-iv/lecture-2-the-game-of-matrices" section="Part IV: Matrix Algebra" title="Lecture 2: The Game of Matrices" description="Video Description: Herb Gross describes the game of matrices — the rules of matrix arithmetic and algebra. He also covers non-singularity and the inverse of a matrix. Instructor/speaker: Prof. Herbert Gross" thumbnail="https://img.youtube.com/vi/rRCN5542U7E/default.jpg" >}} {{< video-gallery-item href="/sections/part-iv/lecture-3-inverting-a-matrix" section="Part IV: Matrix Algebra" title="Lecture 3: Inverting a Matrix" description="Video Description: Herb Gross illustrates how to invert a square matrix and its relevance to Calculus of Several Variables. Instructor/speaker: Prof. Herbert Gross" thumbnail="https://img.youtube.com/vi/sZh-zowKEQQ/default.jpg" >}} {{< video-gallery-item href="/sections/part-iv/lecture-4-inverting-more-general-systems-of-equations" section="Part IV: Matrix Algebra" title="Lecture 4: Inverting More General Systems of Equations" description="Video Description: Herb Gross demonstrates how to invert systems of non-linear equations. Instructor/speaker: Prof. Herbert Gross" thumbnail="https://img.youtube.com/vi/a-w4F0c57nE/default.jpg" >}} {{< video-gallery-item href="/sections/part-iv/lecture-5-maxima-and-minima-in-several-variables" section="Part IV: Matrix Algebra" title="Lecture 5: Maxima and Minima in Several Variables" description="Video Description: With our knowledge of matrix algebra to help, Herb Gross teaches how to find the local maxima and minima of functions of several real variables. Instructor/speaker: Prof. Herbert Gross" thumbnail="https://img.youtube.com/vi/io8kTsSnOdE/default.jpg" >}}
